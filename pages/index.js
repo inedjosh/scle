@@ -51,7 +51,7 @@ export default function Home() {
     
     </div>
      <div className={styles.subHero}>
-       <h4 class={styles.subHeroHeadingText}>charles darwin</h4>
+       <h4 className={styles.subHeroHeadingText}>charles darwin</h4>
        <p className={styles.subHeroParagraph}>
          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisi neque pulvinar erat amet porttitor amet, blandit vulputate. Sed adipiscing dignissim placerat 
        </p>
