@@ -118,11 +118,11 @@ export default function Home() {
         <p>stay updated on news, events, entrepeneurs, research and more</p>
        <div>
          <label className={styles.label}>Email Address</label>
-          <input className={styles.input} type='text'/>
+          <input className={styles.input} type='text' />
        </div>
        <div>
          <label className={styles.label}>Email Address</label>
-          <input className={styles.input} type='text'/>
+          <input className={styles.input} type='text' />
        </div>
         </div>
        </div>
