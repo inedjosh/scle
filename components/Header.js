@@ -17,6 +17,7 @@ function Header() {
         className={styles.logo}
         width={150}
         height={10}
+        alt='image'
         />
      
           <ul className={styles.nav}>
