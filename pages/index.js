@@ -55,6 +55,7 @@ export default function Home() {
         className={styles.divImage}
         width={300}
         height={300}
+          alt='image'
         />
     
 </div>
@@ -70,6 +71,7 @@ export default function Home() {
           <Image
         src={course}
         className={styles.sectionImage}
+          alt='image'
         />
        </div>
        </div>
@@ -84,6 +86,7 @@ export default function Home() {
           <Image
         src={community}
         className={styles.sectionImage}
+          alt='image'
         />
        </div>
        </div>
@@ -91,6 +94,7 @@ export default function Home() {
          <Image
         src={backgroundTestimony}
         className={styles.testimonyImage}
+          alt='image'
         />
 <h3 className={styles.headingText}>Testimonials</h3>
 <div className={styles.testimonyBox}>
@@ -98,14 +102,16 @@ export default function Home() {
 </div>
   <Image
         src={image1}
-        className={styles.testimonyPerson}
+        className={styles.testimonyPerson} 
+         alt='image'
+
         />
        </div>
        <div className={styles.contact}>
            <Image
         src={contact}
         className={styles.contactImage}
-
+       alt='image'
         />
         <div className={styles.form}>
         <h2>Stay updated</h2>
