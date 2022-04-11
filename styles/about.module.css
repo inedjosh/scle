@@ -1,0 +1,541 @@
+
+
+
+.firstSection{
+    width: 97%;
+    height: 350px;
+    background: var(--blue);
+    padding: 2rem;
+    overflow: hidden;
+    color: #eee;
+    font-family: 'Montserrat', sans-serif;
+        --blue: rgb(5, 5, 150);
+    --lightblue: rgb(55, 55, 248);
+    --grey: lightgray;
+
+}
+
+.firstSectionAbout{
+    width: 97%;
+    height: 350px;
+    padding: 2rem;
+    overflow: hidden;
+    color: #eee;
+font-family: 'Montserrat', sans-serif;
+    }
+
+    .nextDivContainer{
+        width: 100%;
+        display: flex;
+justify-content: center;
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+padding: 20px;
+margin: 20px 0;
+    }
+
+
+.videoHolderContainer{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 80px;
+    align-items: center;
+
+}
+.videoText{
+    width: 100%
+}
+.headingText{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+.theText{
+    width: 22rem;
+    padding: 1rem;
+}
+
+.blue{
+    color: var(--blue);
+}
+
+.videoHolder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuListAbout{
+    color: var(--blue);
+    float: right;
+    display: flex;    
+    font-size: 13px;
+    gap: 3rem;
+    font-weight: bolder;
+    margin-right: 3rem;
+    margin-top: -4rem;
+}
+
+.topLeftElements{
+    width: 200px;
+    height: 3rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottleImage{
+    width: 2rem;
+    height: 3rem;
+}
+
+.bottleImage {
+    width: 100%;
+    height: 100%;
+}
+
+.bottleText{
+    width: 100%;
+    font-size: 11px;
+    width: 7rem;
+}
+
+.menuList{
+    list-style: none;
+    display: flex;
+    font-size: 12px;
+    font-weight: bold;
+    float: right;
+    margin-top: -3rem;
+}
+
+.menuList {
+    margin-left: 3rem;
+    letter-spacing: .1rem;
+    color: #eee;
+    transition: .5s linear;
+    cursor: pointer;
+}
+
+.menuList:hover{
+    color: var(--lightblue);
+}
+.about{
+       --blue: rgb(5, 5, 150);
+    --lightblue: rgb(55, 55, 248);
+    --grey: lightgray;
+}
+
+.girlAndBook{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.girlImage{
+    width: 10rem;
+    height: 20rem;
+    overflow: hidden;
+}
+
+.girlImage {
+    width: 100%;
+    height: 100%;
+}
+
+.girlText{
+    width: 15rem;
+}
+
+.girlText{
+    font-size: 3rem;
+}
+
+
+.secondSection {
+    color: #333;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: bolder;
+    padding: 2rem;
+}
+
+.firstImageHolder{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+}
+
+.image{
+    width: 600px;
+    height: 300px;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+}
+
+.greyBackground{
+    background: var(--grey);
+    width: 300px;
+    height: 350px;
+    z-index: 1;
+    position: absolute;
+    margin-left: -27rem;
+    margin-top: -3rem;
+}
+
+.greyBox{
+    background: var(--grey);
+    width: 600px;
+    height: 550px;
+      
+}
+
+.greyBox2{
+    background: var(--grey);
+    width: 80vw;
+    height: 500px;
+      margin-top: 50px;
+}
+
+
+.greyBox3{
+    background: var(--grey);
+    width: 300px;
+    height: 400px;
+      
+}
+
+.textHolderDiv{
+    height: 700px;
+    padding: 4rem;
+    margin-top: 4rem;
+}
+
+.textSectionStyle1 .textHolder{
+    width:22rem;
+    text-align: right;
+}
+
+.textSectionStyle-1 .textHolder {
+    border-right: 6px solid red;
+    padding: .4rem;
+}
+
+.textSectionStyle1 .textHolder {
+    margin-top: .5rem;
+}
+
+.textSectionStyle1{
+    display: flex;
+    gap: 3rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5rem;
+   font-family: 'Montserrat', sans-serif;
+}
+
+
+.textSectionStyle2{
+    display: flex;
+    gap: 3rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5rem;
+}
+.textSectionStyle2 .textHolder {
+    border-left: 6px solid red;
+    padding: .4rem;
+}
+
+.textSectionStyle2 .textHolder {
+    margin-top: .5rem;
+}
+
+.textSectionStyle2 .textHolder{
+    width:22rem;
+    text-align: left;
+}
+
+
+.ourPartners{
+    background: var(--blue);
+    width: 100%;
+    height: 200px;
+    margin-top: 5rem;
+    display: flex;
+    color: #eee;
+    justify-content: center;
+    padding: 2rem;
+    text-align: center;
+}
+
+
+.parterContent{
+    width: 80%;
+}
+
+
+.parterContent {
+    margin-bottom: 1rem;
+}
+
+.awardsContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    color: #eee;
+}
+
+
+.awardBox{
+    height: 200px;
+    width: 80%;
+    background: var(--blue);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.awardBox {
+    font-size: 2rem;
+    width: 30%;
+   font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+}
+
+.awardBox {
+    width: 50%;
+}
+
+.cupIcon{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: goldenrod;
+    position: absolute;
+    margin-left: -50rem;
+    margin-top: -1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.biTrophy{
+    color: #333;
+    font-weight: bolder;
+    font-size: 1.5rem4
+}
+
+.footer{
+    width: 100%;
+    gap: 3rem;
+    height: auto;
+    padding: 2rem;
+    background: var(--blue);
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eee;
+font-family: 'Montserrat', sans-serif;
+}
+
+.bottom{
+    width: 100%;
+    gap: 3rem;
+    height: auto;
+    padding: 2rem;
+    background: var(--blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eee;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.subscibeInput {
+    background: var(--lightblue);
+    border: none;
+    outline: none;
+    padding: .5rem;
+    width: 13rem;
+    color: #eee;
+}
+
+.oneOfThree {
+    font-size: 1rem;
+    width: 10rem;
+    font-weight: lighter;
+    letter-spacing: .1rem;
+    line-height: 1.4rem;
+}
+
+.oneOfThree{
+    width: 23rem;
+    
+}
+
+.subscibeInput{
+    padding: .5rem;
+    border: none;
+    outline: none;
+    color: var(--blue);
+    width: 7rem;
+}
+
+.oneOfThree {
+    list-style: none;
+    display: flex;
+    margin-left: -4rem;
+    margin-top: 3rem;
+}
+
+.oneOfThree {
+    margin-left: 4rem;
+    font-size: .8rem;
+}
+
+
+.twoOfThree{
+    width: 23rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottleText {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    font-size: 1rem;
+    overflow: visible;
+    position: absolute;
+}
+
+
+.bottleText {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--lightblue);
+    border-radius: 50%;
+}
+
+
+.threeOfThree {
+   
+    gap: 1rem;
+    }
+
+    .threeOfThree{
+        font-weight: lighter;  
+        font-size: 1rem ;
+        margin-top: 1rem;
+        transition: .5s linear;
+    }
+    
+.threeOfThree {
+    color: var(--lightblue);
+}
+
+.redTextBackground{
+    width: 100vw;
+    padding: 45px 30px;
+    text-align: center;
+    background: #FFD2DD;
+    opacity: .7;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.redBackgroundText{
+    font-size: 15px;
+    width:700px;
+    text-align: center;
+    font-weight: 300;
+}
+.sections{
+    display: flex;
+    font-size: .7rem;
+    padding: 1rem;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+
+.imgDiv{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background: var(--blue);
+    margin-bottom: 15px;
+    border: 3px dashed var(--blue);
+    padding: 20px;
+}
+
+.title{
+    color: var(--lightblue);
+    font-weight: bolder
+}
+
+.obj{
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    margin-top: 3rem;
+   font-family: 'Montserrat', sans-serif;
+     margin-top: 40px;
+}
+
+.objContainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.sectionHolder{
+    width: 100%;
+    display: flex;
+    padding: 0 50px;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.founderDiv{
+    width: 100%;
+    text-align: center;
+  font-family: 'Montserrat', sans-serif;
+    margin-bottom: 3rem;
+}
+.greyBoxContainer{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}

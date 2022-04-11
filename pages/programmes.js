@@ -1,8 +1,12 @@
 import React from 'react'
+import Header from '../components/Header'
 
 function programmes() {
   return (
-    <div>programmes</div>
+    <div>
+    <Header />
+
+    </div>
   )
 }
 

@@ -13,6 +13,8 @@ import image1 from './../images/image1.png'
 import image2 from './../images/image2.png'
 import image3 from './../images/image3.png'
 import contact from './../images/contact-home.png'
+import alumni from './../images/alumni.png'
+import Footer from './../components/Footer'
 
 export default function Home() {
   return (
@@ -96,16 +98,20 @@ export default function Home() {
         className={styles.testimonyImage}
           alt='image'
         />
+        <div className={styles.testimonyBox}>
 <h3 className={styles.headingText}>Testimonials</h3>
-<div className={styles.testimonyBox}>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Laoreet tortor elementum, sed augue in ut aliquam. Imperdiet netus consequat tincidunt viverra. Netus commodo lectus egestas facilisis parturient fames condimentum  in quam arcu amet sit. Magna enim accumsan curabitur lorem sodales lectus.</p>
-</div>
-  <Image
+
+  <p className={styles.testimonyText}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Laoreet tortor elementum, sed augue in ut aliquam. Imperdiet netus consequat tincidunt viverra. Netus commodo lectus egestas facilisis parturient fames condimentum  in quam arcu amet sit. Magna enim accumsan curabitur lorem sodales lectus.</p>
+   <div className={styles.testimonyImageDiv}>
+     <Image
         src={image1}
         className={styles.testimonyPerson} 
          alt='image'
 
         />
+   </div>
+</div>
+ 
        </div>
        <div className={styles.contact}>
            <Image
@@ -114,18 +120,36 @@ export default function Home() {
        alt='image'
         />
         <div className={styles.form}>
-        <h2>Stay updated</h2>
-        <p>stay updated on news, events, entrepeneurs, research and more</p>
-       <div>
-         <label className={styles.label}>Email Address</label>
+        <h2 className={styles.bigHeading}>Stay updated</h2>
+        <p className={styles.formText}>stay updated on news, events, entrepeneurs, research and more</p>
+       <div className={styles.formDiv}>
+         <label className={styles.label}>Email Address <span className={styles.redColor}>*</span></label>
           <input className={styles.input} type='text' />
        </div>
-       <div>
-         <label className={styles.label}>Email Address</label>
+       <div className={styles.formDiv}>
+         <label className={styles.label}>Email Address <span className={styles.redColor}>*</span></label>
           <input className={styles.input} type='text' />
+       </div>
+       <div className={styles.formBtnDiv}>
+       <button className={styles.formBtn}>Submit</button>
        </div>
         </div>
        </div>
+       <div className={styles.alumni}>
+         <h2 className={styles.alumniHeading}> Partner with our alumni</h2>
+         <p className={styles.alumniTextTop}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisi neque pulvinar erat amet porttitor amet, blandit vulputate. Sed adipiscing dignissim placerat </p>
+         <Image src={alumni}
+          alt='image'
+          className={styles.alumniImage}
+         />
+<p className={styles.alumniTextBottom}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisi neque pulvinar erat amet porttitor amet, blandit vulputate. Sed adipiscing dignissim placerat </p>
+<div className={styles.alumniButtonDiv}>
+  <button className={styles.alumniButton}>
+  Connect Now
+</button>
+</div>
+       </div>
+       <Footer />
           </div>
 
   )

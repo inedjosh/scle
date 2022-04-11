@@ -165,9 +165,7 @@ margin-top:50px
   padding: 40px 70px;
 }
 .testimonyImage{
-  position: absolute;
-  left:0;
-  right: 0;
+position: relative;
 
 }
 .sectionImage{
@@ -178,5 +176,157 @@ margin-top:50px
   text-transform: uppercase;
 }
 .testimony{
-  margin-top:50px
+  margin-top:50px;
+  position: relative;
+}
+.testimonyBox{
+  position: absolute;
+  top:70px;
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+  /* width: 80% */
+}
+.headingText{
+  color: white;
+     font-family: 'Montserrat', sans-serif;
+     text-align: center;
+     margin-top: 40px;
+}
+.testimonyText{
+  background-color: white;
+  padding: 30px 30px;
+  width: 80%;
+  margin-top: 50px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 300;
+}
+.testimonyImageDiv{
+  display:flex;
+  width:80%;
+  justify-content: flex-start;
+
+}
+.testimonyPerson{
+  align-self: flex-start;
+  display:flex;
+  justify-self: flex-start;
+}
+.contact{
+  padding: 70px;
+  margin-top:50px;
+  position: relative;
+    font-family: 'Montserrat', sans-serif;
+}
+.form{
+  position: absolute;
+  top:50px;
+  width: 85%;
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.bigHeading{
+  font-size: 45px;
+  font-weight:300;
+  color:white;
+  text-align: center;
+  margin-top:40px;
+}
+.formText{
+  /* font-size: 35px; */
+  font-weight:300;
+  color:white;
+  text-align: center;
+  margin-top: -10px;
+}
+.formDiv{
+  display: flex;
+  flex-direction: column;
+  margin:20px 0;
+}
+.label{
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-weight: 300;
+}
+.input{
+  width: 700px;
+  height: 50px;
+  font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    padding-left:10px;
+}
+.redColor{
+  color: red
+}
+.formBtnDiv{
+  display:flex;
+  justify-content: flex-start;
+  width:64%;
+  margin-top:15px
+}
+.formBtn{
+  background-color: #407BFF;
+  width: 200px;
+  height: 50px;
+  border: none;
+  outline: none;
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+  align-self: flex-start;
+font-family: 'Montserrat', sans-serif;
+}
+.alumni{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+}
+.alumniHeading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+  margin-bottom: 20px 0;
+}
+.alumniImage{
+  width:100%;
+  /* margin-left: -30px; */
+  position: absolute;
+  right: 20px;
+}
+.alumniTextTop{
+  position: absolute;
+  top: 70px;
+  width: 70%;
+  font-weight: 300;
+  text-align: center;
+}
+.alumniTextBottom{
+  position: absolute;
+  bottom: 70px;
+  width: 70%;
+  font-weight: 300;
+  text-align: center;
+
+}
+.alumniButtonDiv{
+  margin-top: 30px;
+}
+.alumniButton{
+   background-color: #407BFF;
+  width: 200px;
+  height: 50px;
+  border: none;
+  outline: none;
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+font-family: 'Montserrat', sans-serif;
+/* margin-top:80px; */
 }
