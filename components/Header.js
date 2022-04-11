@@ -11,14 +11,15 @@ import community from './../images/community.png'
 function Header() {
   return (
      <header className={styles.header}>
-
+  <Link href='/'>
        <Image
         src={logo}
-        className={styles.logo}
-        width={150}
-        height={10}
+        // className={styles.logo}
+        // width={100}
+        // height={10}
         alt='image'
         />
+        </Link>
      
           <ul className={styles.nav}>
             <li className={styles.navLink}>
@@ -27,11 +28,11 @@ function Header() {
             <li className={styles.navLink}>
 <Link href='/programmes' className={styles.link}>PROGRAMMES</Link>
             </li>
-            <li className={styles.navLink}>
+            {/* <li className={styles.navLink}>
 <Link href='/faq' className={styles.link}>FAQ</Link>
-            </li>
+            </li> */}
             <li className={styles.navLink}>
-<Link href='/contact' className={styles.link}>CONTACT</Link>
+<Link href='/faculty' className={styles.link}>FACULTIES</Link>
             </li>
           </ul>
       

@@ -1,22 +1,21 @@
 
-
-
 .firstSection{
-    width: 97%;
-    height: 350px;
+    width: 100%;
+    height: 400px;
     background: var(--blue);
     padding: 2rem;
     overflow: hidden;
-    color: #eee;
+    color: #fff;
     font-family: 'Montserrat', sans-serif;
-        --blue: rgb(5, 5, 150);
+        --blue: #2E3192;
     --lightblue: rgb(55, 55, 248);
     --grey: lightgray;
-
+    display: flex;
+    justify-content: space-between;
 }
 
 .firstSectionAbout{
-    width: 97%;
+    width: 100vw;
     height: 350px;
     padding: 2rem;
     overflow: hidden;
@@ -102,26 +101,6 @@ margin: 20px 0;
     width: 7rem;
 }
 
-.menuList{
-    list-style: none;
-    display: flex;
-    font-size: 12px;
-    font-weight: bold;
-    float: right;
-    margin-top: -3rem;
-}
-
-.menuList {
-    margin-left: 3rem;
-    letter-spacing: .1rem;
-    color: #eee;
-    transition: .5s linear;
-    cursor: pointer;
-}
-
-.menuList:hover{
-    color: var(--lightblue);
-}
 .about{
        --blue: rgb(5, 5, 150);
     --lightblue: rgb(55, 55, 248);
@@ -130,15 +109,16 @@ margin: 20px 0;
 
 .girlAndBook{
     display: flex;
-    width: 100%;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
 .girlImage{
-    width: 10rem;
-    height: 20rem;
-    overflow: hidden;
+    width: 200px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 30px;
 }
 
 .girlImage {
@@ -146,23 +126,32 @@ margin: 20px 0;
     height: 100%;
 }
 
-.girlText{
-    width: 15rem;
+.heroText{
+    font-size: 60px;
+    text-align: center;
 }
 
 .girlText{
-    font-size: 3rem;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
 }
 
-
+.facultiesHeading{
+    font-size: 25px;
+    text-align: center;
+    width: 100vw;
+     font-family: 'Montserrat', sans-serif;
+     margin-top: 40px;
+}
 .secondSection {
-    color: #333;
     width: 100%;
     display: flex;
     justify-content: center;
     font-size: 1rem;
-    font-weight: bolder;
-    padding: 2rem;
+    font-weight: bold;
+
 }
 
 .firstImageHolder{
@@ -195,12 +184,16 @@ margin: 20px 0;
     margin-left: -27rem;
     margin-top: -3rem;
 }
-
 .greyBox{
-    background: var(--grey);
-    width: 600px;
-    height: 550px;
-      
+    background-color: #ccc;
+    width: 500px;
+    height: 500px; 
+}
+
+.greyDiv{
+    background-color: #ccc;
+    width: 400px;
+    height: 400px;
 }
 
 .greyBox2{
@@ -213,39 +206,40 @@ margin: 20px 0;
 
 .greyBox3{
     background: var(--grey);
-    width: 300px;
-    height: 400px;
+    width: 400px;
+    height: 500px;
       
 }
 
 .textHolderDiv{
     height: 700px;
     padding: 4rem;
-    margin-top: 4rem;
+    /* margin-top: 4rem; */
 }
 
 .textSectionStyle1 .textHolder{
     width:22rem;
     text-align: right;
-}
-
-.textSectionStyle-1 .textHolder {
-    border-right: 6px solid red;
+      margin-top: .5rem;
     padding: .4rem;
 }
 
-.textSectionStyle1 .textHolder {
-    margin-top: .5rem;
+.textSectionStyle2 .textHolder{
+    width:22rem;
+    text-align: right;
+      margin-top: .5rem;
+    padding: .4rem;
 }
 
 .textSectionStyle1{
     display: flex;
-    gap: 3rem;
+    gap: 5rem;
     width: 100%;
     justify-content: center;
     align-items: center;
     line-height: 1.5rem;
    font-family: 'Montserrat', sans-serif;
+   margin: 50px 0 ;
 }
 
 
@@ -256,106 +250,40 @@ margin: 20px 0;
     justify-content: center;
     align-items: center;
     line-height: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
 }
 .textSectionStyle2 .textHolder {
-    border-left: 6px solid red;
-    padding: .4rem;
+    /* border-left: 6px solid red; */
+    /* padding: .4rem; */
+}
+.headingfaculties1{
+    border-right: 4px solid red;
+    padding-right: 10px;
+}
+.headingfaculties2{
+    border-left: 4px solid red;
+    padding-left: 10px;
 }
 
 .textSectionStyle2 .textHolder {
     margin-top: .5rem;
-}
-
-.textSectionStyle2 .textHolder{
-    width:22rem;
+     width:22rem;
     text-align: left;
 }
-
-
-.ourPartners{
-    background: var(--blue);
-    width: 100%;
-    height: 200px;
-    margin-top: 5rem;
-    display: flex;
-    color: #eee;
-    justify-content: center;
-    padding: 2rem;
-    text-align: center;
-}
-
-
-.parterContent{
-    width: 80%;
-}
-
-
-.parterContent {
-    margin-bottom: 1rem;
-}
-
-.awardsContainer{
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    margin-top: 4rem;
-    color: #eee;
-}
-
-
-.awardBox{
-    height: 200px;
-    width: 80%;
-    background: var(--blue);
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
-
-.awardBox {
-    font-size: 2rem;
-    width: 30%;
-   font-family: 'Montserrat', sans-serif;
-    font-style: italic;
-}
-
-.awardBox {
-    width: 50%;
-}
-
-.cupIcon{
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    background: goldenrod;
-    position: absolute;
-    margin-left: -50rem;
-    margin-top: -1.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.biTrophy{
-    color: #333;
-    font-weight: bolder;
-    font-size: 1.5rem4
-}
-
 .footer{
     width: 100%;
-    gap: 3rem;
     height: auto;
-    padding: 2rem;
-    background: var(--blue);
-    margin-top: 4rem;
+    padding: 10px 40px;
+    background-color: var(--blue);
+    margin-top: 30px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    color: #eee;
+    color: #fff;
 font-family: 'Montserrat', sans-serif;
+}
+.footerDiv{
+    background-color: var(--blue);
 }
 
 .bottom{
@@ -372,12 +300,14 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .subscibeInput {
-    background: var(--lightblue);
-    border: none;
+    /* background: var(--lightblue); */
+    /* width: 200px; */
+   
+}
+.footerTwoInput{
+ color: black;
+  border: none;
     outline: none;
-    padding: .5rem;
-    width: 13rem;
-    color: #eee;
 }
 
 .oneOfThree {
@@ -388,34 +318,56 @@ font-family: 'Montserrat', sans-serif;
     line-height: 1.4rem;
 }
 
-.oneOfThree{
-    width: 23rem;
+
+.subscribeInput{
+    display: flex;
     
 }
+.footerTwoInput{
+background-color:white;
+width:250px;
+height: 35px;
 
-.subscibeInput{
-    padding: .5rem;
-    border: none;
-    outline: none;
-    color: var(--blue);
-    width: 7rem;
 }
-
-.oneOfThree {
+.footerLogo{
+width: 350px
+}
+.FooterLink{
+    margin-top:10px
+}
+.FooterWeblink{
     list-style: none;
-    display: flex;
-    margin-left: -4rem;
-    margin-top: 3rem;
+    color: white;
+    padding: 5px;
 }
 
-.oneOfThree {
-    margin-left: 4rem;
-    font-size: .8rem;
+.socialDiv{
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+    margin-top: 20px
+}
+.socialLink{
+    width:30px;
+    height:30px;
+    border-radius:100% ;
+    background-color: #407BFF;
+    opacity: .4;
+}
+.suscribeText{
+    font-size: 20px;
+}
+.suscribeButton{
+    padding: 2px 10px;
+    color:rgb(5, 5, 150);
+    outline: none;
+    border: none;
+    font-weight: 500;
+      font-family: 'Montserrat', sans-serif;
 }
 
 
 .twoOfThree{
-    width: 23rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -538,4 +490,30 @@ font-family: 'Montserrat', sans-serif;
     width: 100%;
     justify-content: center;
     display: flex;
+}
+.bottom{
+    display: flex;
+    justify-content:space-between;
+}
+.flex1{
+    display:flex;
+    justify-content:space-between;
+}
+.footerBottomLink{
+    list-style: none;
+    padding: 0 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+.flex2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.beamLogo{
+    padding-left: 20px;
+}
+.poweredBy{
+    padding-right: 10px;
+    margin-right: 10px;
 }

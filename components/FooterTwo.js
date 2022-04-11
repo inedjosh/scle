@@ -3,22 +3,18 @@ import styles from './../styles/about.module.css'
 import logo from './../images/MAIN-LOGO.png'
 import Link from 'next/link'
 import beamLogo from './../images/beamLogo.png'
+import Image from 'next/image'
 
 function FooterTwo() {
   return (
-    <>
+    <div className={styles.footerDiv}>
 <div className={styles.footer}>
     <div className={styles.oneOfThree}>
-            <p>subscibe to Our news letter</p>
-            <div className={styles.subscibeInput}>
-                <input type="text" />
-                <button>subscribe</button>
+            <p className={styles.suscribeText}>subscibe to our news letter</p>
+            <div className={styles.subscribeInput}>
+                <input type="text" className={styles.footerTwoInput} />
+                <button className={styles.suscribeButton}>subscribe</button>
             </div>
-
-            <ul>
-                <li>Terms & Condition</li>
-                <li>Privacy Policy</li>
-            </ul>
     </div>
 
     <div className={styles.twoOfThree}>
@@ -29,40 +25,40 @@ function FooterTwo() {
            <Image src={logo} 
             className={styles.footerLogo}
            />
-            {/* <ul>
-                <li><i class="bi bi-facebook"></i></li>
-                <li><i class="bi bi-twitter"></i></li>
-                <li><i class="bi bi-instagram"></i></li>
-                <li></li>
-            </ul> */}
+             <div className={styles.socialDiv}>
+        <div className={styles.socialLink}></div>
+        <div className={styles.socialLink}></div>
+        <div className={styles.socialLink}></div>
+        <div className={styles.socialLink}></div>
+      </div>
         </div>
        
 
 </div>
 
 <div className={styles.threeOfThree}>
-   <ul>
-       <li>Help</li>
-       <li>FAQs</li>
-       <li>Contact Us</li>
+   <ul className={styles.FooterLink}>
+       <li className={styles.FooterWeblink}>Help</li>
+       <li className={styles.FooterWeblink}>FAQs</li>
+       <li className={styles.FooterWeblink}>Contact Us</li>
    </ul>
 </div>
 </div>
 <div className={styles.bottom}>
     <ul className={styles.flex1}>
-        <li>
+        <li className={styles.footerBottomLink}>
             <Link href='#'>Terms & Condition</Link>
         </li>
-        <li>
+        <li className={styles.footerBottomLink}>
             <Link href='#'>Terms & Condition</Link>
         </li>
     </ul>
     <div className={styles.flex2}>
-        <p>powered by </p>
+        <p className={styles.poweredBy}>powered by </p>
         <Image src={beamLogo} className={styles.beamLogo} />
     </div>
 </div>
-</>
+</div>
   )
 }
 
