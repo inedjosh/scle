@@ -21,7 +21,7 @@ function programmes() {
         </div>
 
                 <div className={styles.girlImage}>
-                    <Image src={man} alt="lady" className={styles.heroImage} alt="lady image" />
+                    <Image src={man} className={styles.heroImage} alt="lady image" />
                 </div>
 
             </div>
@@ -31,7 +31,7 @@ function programmes() {
             </div>
     <div>
     <div className={styles.certificateImageDiv}>
-        <Image src={certificate} alt='image' className={styles.certificateImage} alt="certicate" />
+        <Image src={certificate}  className={styles.certificateImage} alt="certicate" />
         </div>
     </div>
     <div className={styles.register}>
@@ -72,7 +72,7 @@ function programmes() {
     <p className={styles.studentText}></p>
         </div>
     <div className={styles.award}>
-    <Image src={award} alt='image' alt='award'/>
+    <Image src={award}  alt='award'/>
     </div>
     <Footer />
     </div>
