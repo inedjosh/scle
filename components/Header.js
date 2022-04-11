@@ -11,7 +11,7 @@ import community from './../images/community.png'
 function Header() {
   return (
      <header className={styles.header}>
-  <Link href='/'>
+  <Link href='/index'>
        <Image
         src={logo}
         // className={styles.logo}

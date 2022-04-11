@@ -24,6 +24,7 @@ function FooterTwo() {
         <div className={styles.footerLogo}>
            <Image src={logo} 
             className={styles.footerLogo}
+            alt='image'
            />
              <div className={styles.socialDiv}>
         <div className={styles.socialLink}></div>
@@ -55,7 +56,7 @@ function FooterTwo() {
     </ul>
     <div className={styles.flex2}>
         <p className={styles.poweredBy}>powered by </p>
-        <Image src={beamLogo} className={styles.beamLogo} />
+        <Image src={beamLogo} className={styles.beamLogo} alt='image'/>
     </div>
 </div>
 </div>

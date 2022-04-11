@@ -16,7 +16,7 @@ function Footer() {
       </div>
     <p className={styles.footerText}> Call: +234-1-777-00099</p>
     <p className={styles.footerText}> Send us an email</p>
-    <p className={styles.footerText}> Say "HI" to SCLE on WhatsApp</p>
+    <p className={styles.footerText}> Say HI to SCLE on WhatsApp</p>
     <p className={styles.footerText}>Join our network of influencers across africa</p>
 
     </div>
