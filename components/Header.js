@@ -11,7 +11,8 @@ import community from './../images/community.png'
 function Header() {
   return (
      <header className={styles.header}>
-  <Link href='./../index'>
+  <Link href='./../index' passHref>
+  <a>
        <Image
         src={logo}
         // className={styles.logo}
@@ -19,6 +20,7 @@ function Header() {
         // height={10}
         alt='image'
         />
+        </a>
         </Link>
      
           <ul className={styles.nav}>
