@@ -1095,4 +1095,41 @@ margin-top:30px;
 .navBlue{
   display: none;
 }
+.menu{
+  /* background-color: white; */
+  color: #fff;
+  font-size: 25px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+.menuWhite{
+  /* background-color: white; */
+  color: black;
+  font-size: 25px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+.mobileShown{
+  height: 400px;
+  position: absolute;
+  z-index: 100;
+  background-color: #fff;
+  width: 70%;
+  right: 10px;
+  top:70px;
+ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.topNavDiv{
+  padding: 15px 10px;
+  border-bottom: 1px solid #ccc;
+
+}
+.topNavLinks{
+  display: flex;
+  flex-direction: column;
+}
+.mobileLink{
+  padding: 10px 5px;
+    border-bottom: 1px solid #ccc;
+}
 }

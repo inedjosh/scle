@@ -255,10 +255,7 @@ margin: 20px 0;
     line-height: 1.5rem;
     font-family: 'Montserrat', sans-serif;
 }
-.textSectionStyle2 .textHolder {
-    /* border-left: 6px solid red; */
-    /* padding: .4rem; */
-}
+
 .headingfaculties1{
     border-right: 4px solid red;
     padding-right: 10px;
@@ -302,11 +299,6 @@ font-family: 'Montserrat', sans-serif;
     font-family: 'Montserrat', sans-serif;
 }
 
-.subscibeInput {
-    /* background: var(--lightblue); */
-    /* width: 200px; */
-   
-}
 .footerTwoInput{
  color: black;
   border: none;
