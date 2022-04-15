@@ -1,13 +1,13 @@
 import Image from 'next/image'
 import React from 'react'
-import FooterTwo from '../components/FooterTwo'
-import Header from '../components/Header'
+import FooterTwo from '../components/Footer'
+import Header from '../components/HeaderWhite'
 import styles from './../styles/about.module.css'
 
 function about() {
   return (
     <div className={styles.about}>
-    <Header />
+    <Header  />
     
     <div className={styles.videoHolderContainer}>
    
@@ -38,13 +38,13 @@ function about() {
   
 
     <div className={styles.redTextBackground}>
-        <h3>what defines us</h3>
+        <h3 className={styles.headingText}>what defines us</h3>
         <p className={styles.redBackgroundText}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque temporibus perferendis exercitationem sed id. 
             Suscipit modi ea velit beatae aperiam quis nam vitae delectus ipsam? Iure eius consectetur aliquam labore!</p>
     </div>
 
     <div className={styles.obj}>
-        <h2>
+        <h2 className={styles.headingText}>
             Our key objectives
         </h2>
      
@@ -81,7 +81,7 @@ function about() {
 <div className={styles.founderDiv}>
 
 
-    <h2>Meet the founder</h2>
+    <h2 className={styles.headingText}>Meet the founder</h2>
 <div className={styles.greyBoxContainer}>
     <div className={styles.greyBox3}>
     </div>

@@ -12,6 +12,7 @@
     --grey: lightgray;
     display: flex;
     justify-content: space-between;
+   
 }
 
 .firstSectionAbout{
@@ -39,8 +40,9 @@ margin: 20px 0;
     justify-content: center;
     display: flex;
     font-family: 'Montserrat', sans-serif;
-    margin-top: 80px;
+    margin-top: -10px;
     align-items: center;
+ margin-top: 50px;
 
 }
 .videoText{
@@ -48,7 +50,8 @@ margin: 20px 0;
 }
 .headingText{
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 40px;
+    margin: 30px 0;
 }
 .theText{
     width: 22rem;
@@ -186,7 +189,7 @@ margin: 20px 0;
 }
 .greyBox{
     background-color: #ccc;
-    width: 500px;
+    width: 600px;
     height: 500px; 
 }
 
@@ -516,4 +519,81 @@ width: 350px
 .poweredBy{
     padding-right: 10px;
     margin-right: 10px;
+}
+@media only screen and (max-width: 850px) and (min-width: 450px) {
+
+.videoHolder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+.blue{
+    font-size:30px
+}
+.headingText{
+    font-size: 30px;
+}
+.sectionHolder{
+    display:flex;
+    flex-direction: column;
+}
+.redBackgroundText{
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+    font-weight: 300;
+}
+
+}
+
+
+
+@media only screen and (max-width: 450px) {
+    .videoHolder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+.greyBox{
+    width: 90%;
+}
+.blue{
+    font-size:20px
+}
+.headingText{
+    font-size: 20px;
+}
+.sectionHolder{
+    display:flex;
+    flex-direction: column;
+}
+.redTextBackground{
+    /* width: 100%; */
+    /* padding: 45px 30px; */
+    text-align: center;
+    background: #FFD2DD;
+    opacity: .7;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.redBackgroundText{
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+    font-weight: 300;
+}
+.greyBox3{
+    width: 90%;
+}
+.greyBox2{
+    background: var(--grey);
+    width: 90vw;
+    height: 500px;
+      margin-top: 50px;
+}
 }

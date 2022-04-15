@@ -2,7 +2,7 @@
     width: 100%;
     height: 360px;
     background: var(--blue);
-    padding: 2rem;
+    padding: 0 2rem ;
     overflow: hidden;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
@@ -10,28 +10,152 @@
     --lightblue: rgb(55, 55, 248);
     --grey: lightgray;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    position: relative;
+}
+.heroDiv{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 200px;
 }
 .heroText{
-    font-size: 40px;
+    font-size: 70px;
     width: 400px;
+    margin-bottom: -10px;
 }
 .girlImage{
-    margin-top: 50px;
+    margin-top: 500px;
+    width: 500px;
+    height: 500px;
+       position: absolute;
+    /* top: 0; */
+    left: 650px;
+    bottom: -170px;
 }
 .heroImage{
-    width: 150px;
-    height: 150px;
+    width: 100%;
+    height: 100%;
+  
 }
 .heroParagraphText{
     border-left: 10px solid #407BFF ;
     padding-left: 5px;
     background-color: #2B2FB9;
-    padding: 20px
+    padding: 20px;
+    width: 500px;
+    padding-left: 20px;
 }
 .programBlue{
     color: #407BFF;
+}
+.overlap{
+  background-color: #DA1C5C;
+  width: 100%;
+  height: 350px;
+  font-family: 'Cinzel', serif;
+    color: white;
+    display: flex;
+    padding: 30px 0;
+    align-items: flex-start;
+}
+.certificateImageDiv{
+border: 2px dashed #DA1C5C;
+padding: 5px;
+margin: 0 40px;
+
+}
+.obj{
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    margin-top: 3rem;
+   font-family: 'Montserrat', sans-serif;
+     margin-top: 40px;
+}
+
+.objContainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.sectionHolder{
+    width: 100%;
+    display: flex;
+    padding: 0 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+.imgDiv{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: #2E3192;
+    margin-bottom: 15px;
+    border: 3px dashed var(--blue);
+    padding: 20px;
+}
+.sections{
+    display: flex;
+    font-size: .7rem;
+    padding: 1rem;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  
+}
+.objHeading{
+    font-size: 40px;
+    margin-top: 40px;
+}
+.overlapTextDiv{
+  font-family: 'Montserrat', sans-serif;
+  padding: 20px 10px ;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  margin: 25px 30px;
+}
+.whiteColor{
+  color: white;
+  font-size: 20px
+}
+.sectionImage{
+  width: 80%;
+  height: 60%;
+}
+.headingText{
+  text-transform: uppercase;
+  /* padding: 30px; */
+}
+.listOverlap{
+  display: flex;
+  align-items: center;
+}
+.overlapHeading{
+  text-transform: uppercase;
+  color: white;
+  width: 300px;
+  padding: 0 20px;
+  width: 350px;
+  font-size: 40px;
+  padding-left: 40px;
+}
+.overlapList{
+  display:flex;
+  justify-content: space-around;
+   font-family: 'Montserrat', sans-serif;
+}
+.overlapButton{
+  background-color: white;
+  border: none;
+  outline: none;
+  margin: 30px;
+  padding: 15px 45px;
+  color: #2E3192;
+   font-family: 'Montserrat', sans-serif;
 }
 .explore{
     display:flex;
@@ -43,7 +167,7 @@
 .exploreHeading{
     text-align: center;
       font-family: 'Montserrat', sans-serif;
-
+    font-size: 40px;
 }
 .exploreText{
     text-align: center;
@@ -51,12 +175,7 @@
      font-weight: 300;
      width: 80%
 }
-.certificateImageDiv{
-    display: flex;
-    justify-content: center;
-    margin-top:30px;
-    height: 400px
-}
+
 .certificateImage{
     width: 100%;
     height: 100%;
@@ -65,15 +184,23 @@
     display:flex;
     justify-content: space-around;
     align-items: center;
-    padding: 0 120px;
+    padding: 0 250px;
     margin-top: 30px;
+    flex-direction: column;
+}
+.registerFlexDiv{
+    display:flex;
+    justify-content: space-between;
+
 }
 .registerPhoneImage{
-    width: 300px
+    height: 100px;
+    width: 10px
 }
 .registerHeading{
     /* text-align: center; */
       font-family: 'Montserrat', sans-serif;
+      font-size: 40px;
 }
 .registerText{
     /* text-align: center; */
@@ -85,7 +212,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    flex: 1;
 }
 .registerList{
     margin: 30px 0;
@@ -94,25 +222,28 @@
     align-items: center;
    font-family: 'Montserrat', sans-serif;
 }
+.circleText{
+    width: 200px;
+}
 .circle1{
-    width: 65px;
-    height: 50px;
+    width: 105px;
+    height: 65px;
     background-color: #00AEEF;
-    border-radius: 50%;
+    border-radius: 200%;
     margin-right: 10px
 }
 .circle2{
-    width: 65px;
-    height: 50px;
+    width: 105px;
+    height: 65px;
     background-color: #FFD2DD;
-    border-radius: 50%;
+    border-radius: 100%;
     margin-right: 10px
 }
 .circle3{
-    width: 65px;
-    height: 50px;
+    width: 105px;
+    height: 65px;
     background-color: #2E3192;
-    border-radius: 50%;
+    border-radius: 100%;
     margin-right: 10px
 }
 .student{
@@ -133,6 +264,7 @@
 }
 .studentHeading{
     font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
 }
 .studentText{
      font-family: 'Montserrat', sans-serif;
@@ -140,4 +272,171 @@
 }
 .award{
     margin: 20px 0;
+}
+
+@media only screen and (max-width: 850px) and (min-width: 450px) {
+.firstSection{
+    width: 100%;
+    height: 400px;
+   padding: 10px 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+.heroDiv{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.heroText{
+    font-size: 70px;
+    width: 100%;
+    margin-bottom: -10px;
+}
+.girlImage{
+    display: none;
+}
+.heroImage{
+    width: 100%;
+    height: 100%;
+  
+}
+.heroParagraphText{
+    border-left: 10px solid #407BFF ;
+    padding-left: 5px;
+    background-color: #2B2FB9;
+    padding: 20px;
+    width: 95%;
+    padding-left: 20px;
+}
+.programBlue{
+    color: #407BFF;
+}
+.overlap{
+  background-color: #DA1C5C;
+  width: 100%;
+  height: 400px;
+  font-family: 'Cinzel', serif;
+    color: white;
+    display: flex;
+    padding: 30px 0;
+    align-items: flex-start;
+}
+.certificateImageDiv{
+border: 2px dashed #DA1C5C;
+padding: 5px;
+margin: 0 20px;
+
+}
+.sectionHolder{
+    width: 100%;
+    display: flex;
+    padding: 0 50px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+}
+
+
+
+@media only screen and (max-width: 450px) {
+    .firstSection{
+    width: 100%;
+    height: 400px;
+   padding: 10px 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+.heroDiv{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.heroText{
+    font-size: 40px;
+    width: 100%;
+    margin-bottom: -10px;
+}
+.girlImage{
+    display: none;
+}
+.heroImage{
+    width: 100%;
+    height: 100%;
+  
+}
+.heroParagraphText{
+    border-left: 10px solid #407BFF ;
+    padding-left: 5px;
+    background-color: #2B2FB9;
+    padding: 10px;
+    width: 95%;
+    padding-left: 20px;
+    font-size: 14px;
+}
+.programBlue{
+    color: #407BFF;
+}
+.exploreHeading{
+    font-size:20px;
+    margin-bottom: -5px;
+}
+.overlap{
+  background-color: #DA1C5C;
+  width: 100%;
+  height: 500px;
+  font-family: 'Cinzel', serif;
+    color: white;
+    display: flex;
+    padding: 30px 0;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+.overlapText{
+    font-size: 15px;
+}
+.listOverlap{
+    font-size:13px ;
+}
+.studentHeading{
+    font-size: 20px;
+}
+.studentName{
+    font-size: 16px;
+}
+.overlapHeading{
+    font-size: 20px;
+}
+.overlapButton{
+    width: 80%;
+}
+.objHeading{
+    font-size:20px
+}
+.studentText{
+    font-size: 15px;
+    text-align: center;
+}
+.certificateImageDiv{
+border: 2px dashed #DA1C5C;
+padding: 5px;
+margin: 0 5px;
+
+}
+.sectionHolder{
+    width: 100%;
+  
+    display: flex;
+    padding: 0 50px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
 }

@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import logo from './../images/MAIN-LOGO.png'
+import logo from './../images/logo-white.png'
 import Link from 'next/link'
 import background from '../images/background.png'
 import lady from './../images/lady.png'
@@ -13,7 +13,7 @@ function Header() {
   
 
   return (
-     <header className={styles.header}>
+     <header className={styles.whiteBck }>
   <Link href='/' passHref>
   <a className={styles.logoDiv}>
        <Image
@@ -23,26 +23,21 @@ function Header() {
         />
         </a>
         </Link>
-          <ul className={styles.nav}>
-            <li className={styles.navLink}>
-<Link href='./../about' className={styles.link}>ABOUT US</Link>
+          <ul className={styles.navBlue}>
+            <li className={styles.navLinkBlue}>
+<Link href='./../about' className={styles.linkBlue}>ABOUT US</Link>
             </li>
-            <li className={styles.navLink}>
-<Link href='./../programmes' className={styles.link}>PROGRAMMES</Link>
+            <li className={styles.navLinkBlue}>
+<Link href='./../programmes' className={styles.linkBlue}>PROGRAMMES</Link>
             </li>
             {/* <li className={styles.navLink}>
 <Link href='/faq' className={styles.link}>FAQ</Link>
             </li> */}
-            <li className={styles.navLink}>
-<Link href='./../faculty' className={styles.link}>FACULTIES</Link>
+            <li className={styles.navLinkBlue}>
+<Link href='./../faculty' className={styles.linkBlue}>FACULTIES</Link>
             </li>
           </ul>
-      <nav className={styles.navButton}>
-        APPLY NOW
-      </nav>
-      <nav className={styles.menuButton}>
-            menu
-      </nav>
+     
       
      </header>
   )
