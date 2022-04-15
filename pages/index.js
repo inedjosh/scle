@@ -29,6 +29,7 @@ export default function Home() {
   
    <Header />
      <div className={styles.hero} >
+  
      <div className={styles.overlay}></div>
     <div className={styles.heroText}>
       We nuture great <br/>
