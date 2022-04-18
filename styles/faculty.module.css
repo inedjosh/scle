@@ -75,7 +75,7 @@
     background-color: var(--blue);
 }
 
-@media only screen and (max-width: 800px) and (min-width: 450px) {
+@media only screen and (max-width: 800px) and (min-width: 500px) {
 .textHolderDiv{
     padding: 0 30px;
 }
@@ -83,7 +83,7 @@
 
 
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 500px) {
     
 .firstSection{
     width: 100%;

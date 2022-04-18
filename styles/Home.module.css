@@ -440,7 +440,7 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Montserrat', sans-serif;
 /* margin-top:80px; */
 }
-@media only screen and (max-width: 800px) and (min-width: 450px) {
+@media only screen and (max-width: 800px) and (min-width: 500px) {
     .header{
   display:flex;
   justify-content: space-between;
@@ -672,7 +672,7 @@ font-family: 'Montserrat', sans-serif;
 /* margin-top:80px; */
 }
 }
-@media only screen and (max-width: 450px)  {
+@media only screen and (max-width: 500px)  {
     .header{
   display:flex;
   justify-content: space-between;
