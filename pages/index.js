@@ -30,7 +30,7 @@ export default function Home() {
    <Header />
      <div className={styles.hero} >
       <div>
-        <Image src={background} className={styles.background} />
+        <Image src={background} height={750} className={styles.background} />
       </div>
      <div className={styles.overlay}></div>
    <div className={styles.heroDescription}>
@@ -65,7 +65,7 @@ export default function Home() {
       <div className={styles.whoWeAreImageDiv}>
            <Image
         src={lady}
-        className={styles.divImage}
+        className={styles.divImageMain}
           alt='image'
         />
         <div className={styles.overlapImages}>
