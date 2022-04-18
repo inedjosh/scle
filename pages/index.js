@@ -2,9 +2,9 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import logo from './../images/MAIN-LOGO.png'
-import Link from 'next/link'
-import background from '../images/background.png'
 import lady from './../images/lady.png'
+import background from './../images/background.png'
+import Link from 'next/link'
 import course from './../images/guy-home.png'
 import community from './../images/community.png'
 import Header from './../components/Header'
@@ -29,8 +29,9 @@ export default function Home() {
   
    <Header />
      <div className={styles.hero} >
-      <div>
-        <Image src={background} height={750} className={styles.background} />
+
+      <div className={styles.containerHero}>
+        <Image src={background}  className={styles.background} />
       </div>
      <div className={styles.overlay}></div>
    <div className={styles.heroDescription}>

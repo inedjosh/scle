@@ -100,14 +100,11 @@ flex-direction: column;
 position: relative;
 }
 .background{
-  position: fixed;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  right: 0;
+  display: none;
 }
 .heroDescription{
   position: absolute;
+  top: 80px
 }
 .heroText{
   color: #fff;
@@ -452,7 +449,7 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Montserrat', sans-serif;
 /* margin-top:80px; */
 }
-@media only screen and (max-width: 800px) and (min-width: 500px) {
+@media only screen and (max-width: 800px) and (min-width: 650px) {
     .header{
   display:flex;
   justify-content: space-between;
@@ -504,7 +501,8 @@ font-family: 'Montserrat', sans-serif;
   align-items: center;
 }
 .textDiv{
-  padding: 0 50px
+  padding: 0 50px;
+
 }
 .divImage{
   width: 100%;
@@ -531,6 +529,12 @@ padding:0;
 height: 400px;
 display: flex;
 flex-direction: column;
+}
+.heroDescription{
+  top:10px;
+}
+.whoWeAre{
+  margin-top: -150px;
 }
 .testimony{
   margin-top:50px;
@@ -684,7 +688,7 @@ font-family: 'Montserrat', sans-serif;
 /* margin-top:80px; */
 }
 }
-@media only screen and (max-width: 500px)  {
+@media only screen and (max-width: 650px)  {
     .header{
   display:flex;
   justify-content: space-between;
@@ -743,15 +747,27 @@ display: none;
  z-index: 20;
  font-weight: bolder;
 }
+.hero{
+  height: 300px;
+  background: #2E3192;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .background{
-  height: 500px;
+  display: none;
+  width: 0;
+  height:0;
+}
+.containerHero{
+  display: none;
 }
 .subHeading{
   margin-top: 80px;
   /* color: black; */
 }
 .heroDescription{
-  top: -50px
+  top: -10px
 }
 .heroTextBlue{
   color: #407BFF
@@ -770,9 +786,7 @@ display: none;
   z-index: 1; 
   cursor: pointer; 
 }
-.hero{
-  height: 200px;
-}
+
 .heroTextSub{
   margin-left: 20px;
   display: flex;
