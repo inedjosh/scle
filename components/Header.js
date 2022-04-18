@@ -26,8 +26,8 @@ function Header() {
       animate={mobileNav ? {   y: 0 }: {y:-1000}}
       initial={{y: -1000 }}
       transition={{
-        delay: 0.1,
-        duration: 0.2,
+        delay: 0.2,
+        duration: 0.4,
       }}
     >
     <div className={styles.topNavDiv}>
