@@ -29,9 +29,12 @@ export default function Home() {
   
    <Header />
      <div className={styles.hero} >
-  
+      <div>
+        <Image src={background} className={styles.background} />
+      </div>
      <div className={styles.overlay}></div>
-    <div className={styles.heroText}>
+   <div className={styles.heroDescription}>
+      <div className={styles.heroText}>
       We nuture great <br/>
       ideas for <span className={styles.heroTextBlue}>success</span>
     </div>
@@ -39,6 +42,7 @@ export default function Home() {
       <div className={styles.redBar}></div>
       <p className={styles.heroParagraph}>SuccessLorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisi neque pulvinar erat </p>
     </div>
+   </div>
      </div>
     
  
@@ -153,11 +157,14 @@ export default function Home() {
  
        </div>
        <div className={styles.contact}>
+       <div className={styles.cantactImageDiv}>
            <Image
         src={contact}
         className={styles.contactImage}
+        // height={900}
        alt='image'
         />
+        </div>
         <div className={styles.form}>
         <h2 className={styles.bigHeading}>Stay updated</h2>
         <p className={styles.formText}>stay updated on news, events, entrepeneurs, research and more</p>

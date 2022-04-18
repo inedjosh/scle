@@ -89,14 +89,25 @@ font-family: 'Montserrat', sans-serif;
   height: 100%
 }
 .hero{
-   background-image:url("../images/background.png");
+   /* background-image:url("../images/background.png");
 background-position: center; 
   background-repeat: no-repeat; 
   background-size: cover; 
-padding:0;
+padding:0; */
 height: 500px;
 display: flex;
 flex-direction: column;
+position: relative;
+}
+.background{
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+.heroDescription{
+  position: absolute;
 }
 .heroText{
   color: #fff;
@@ -138,6 +149,7 @@ flex-direction: column;
 }
 .whoWeAreImageDiv{
   position: relative;
+  /* margin-top: 500px; */
 }
 .overlapImages{
   position: absolute;
@@ -169,7 +181,7 @@ flex-direction: column;
   font-family: 'Montserrat', sans-serif;
   font-size:40px;
   font-weight: 900;
-  margin-top:60px;
+  margin-top:200px;
 }
 .flexDiv{
   display: flex;
@@ -681,6 +693,7 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Montserrat', sans-serif;
   z-index: 30;
   width: 100vw;
+  height: 65px;
 }
 .logoDiv{
   /* margin-bottom: -50px; */
@@ -723,18 +736,23 @@ display: none;
 }
 .heroText{
   color: #fff;
-  font-size:35px;
+  font-size:25px;
   font-family: 'Montserrat', sans-serif;
  margin-top: 80px;
  margin-left: 20px;
  z-index: 20;
  font-weight: bolder;
 }
+.background{
+  height: 400px;
+}
 .subHeading{
   margin-top: 80px;
   /* color: black; */
 }
-
+.heroDescription{
+  top: -50px
+}
 .heroTextBlue{
   color: #407BFF
 }
@@ -742,7 +760,7 @@ display: none;
   color: #fff;
    font-family: 'Montserrat', sans-serif;
    font-weight: 500;
-   font-size: 16px;
+   font-size: 13px;
    width: 300px;
    padding-left: 10px;
 }
@@ -753,7 +771,7 @@ display: none;
   cursor: pointer; 
 }
 .hero{
-  height: 400px;
+  height: 200px;
 }
 .heroTextSub{
   margin-left: 20px;
@@ -771,7 +789,7 @@ display: none;
 }
 .redBar{
   background-color: #DA1C5C;
-  height: 65px;
+  height: 40px;
   width:10px
 }
 .subHero{
@@ -796,9 +814,9 @@ display: none;
 .mainHeading{
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  font-size:40px;
+  font-size:25px;
   font-weight: 900;
-  margin-top:60px;
+  margin-top:20px;
 }
 .flexDiv{
   display: flex;
@@ -872,6 +890,9 @@ margin-top:20px
   justify-content: flex-start;
   align-items: center;
 }
+.sectionImage{
+  display: none;
+}
 .testimonyImage{
 position: relative;
 }
@@ -931,7 +952,7 @@ position: relative;
 .testimony{
   margin-top:20px;
   position: relative;
-   height: 400px;
+   height: 280px;
 }
 .testimonyBox{
   position: absolute;
@@ -977,10 +998,16 @@ position: relative;
 }
 .contact{
   padding: 10px;
-  margin-top:-80px;
-  position: relative;
+  margin-top:30px;
+  /* position: relative; */
   font-family: 'Montserrat', sans-serif;
     /* height: 400px; */
+}
+.contactImage{
+  display: hidden;
+  width: 0;
+  height: 0;
+  position: relative;
 }
 
 
@@ -996,14 +1023,14 @@ position: relative;
 .bigHeading{
   font-size: 15px;
   font-weight:300;
-  color:white;
+  color:black;
   text-align: center;
   margin-top:20px;
 }
 .formText{
   font-size: 10px;
   font-weight:300;
-  color:white;
+  color:black;
   text-align: center;
   margin-top: -10px;
   text-align: center;
@@ -1136,9 +1163,10 @@ margin-top:30px;
 .topNavLinks{
   display: flex;
   flex-direction: column;
+
 }
 .mobileLink{
-  padding: 10px 5px;
+  padding: 20px 20px;
     border-bottom: 1px solid #ccc;
 }
 }
