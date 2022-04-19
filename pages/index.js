@@ -98,11 +98,13 @@ export default function Home() {
          </div>
        </div>
        <div className={styles.sectionImageDiv}>
-          <Image
+         <div className={styles.hide}>
+            <Image
         src={course}
         className={styles.sectionImage}
           alt='image'
         />
+         </div>
         <div className={styles.overlap}>
          <div>
             <h2 className={styles.overlapHeading}>certificate program in christian leadership</h2>
@@ -159,12 +161,14 @@ export default function Home() {
        </div>
        <div className={styles.contact}>
        <div className={styles.cantactImageDiv}>
-           <Image
+        <div className={styles.hide}>
+             <Image
         src={contact}
         className={styles.contactImage}
         // height={900}
        alt='image'
         />
+        </div>
         </div>
         <div className={styles.form}>
         <h2 className={styles.bigHeading}>Stay updated</h2>
@@ -173,10 +177,7 @@ export default function Home() {
          <label className={styles.label}>Email Address <span className={styles.redColor}>*</span></label>
           <input className={styles.input} type='text' />
        </div>
-       <div className={styles.formDiv}>
-         <label className={styles.label}>Email Address <span className={styles.redColor}>*</span></label>
-          <input className={styles.input} type='text' />
-       </div>
+      
        <div className={styles.formBtnDiv}>
        <button className={styles.formBtn}>Submit</button>
        </div>
@@ -185,10 +186,12 @@ export default function Home() {
        <div className={styles.alumni}>
          <h2 className={styles.alumniHeading}> Partner with our alumni</h2>
          <p className={styles.alumniTextTop}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisi neque pulvinar erat amet porttitor amet, blandit vulputate. Sed adipiscing dignissim placerat </p>
-         <Image src={alumni}
+        <div className={styles.partnerImage}>
+           <Image src={alumni}
           alt='image'
           className={styles.alumniImage}
          />
+        </div>
 <p className={styles.alumniTextBottom}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisi neque pulvinar erat amet porttitor amet, blandit vulputate. Sed adipiscing dignissim placerat </p>
 <div className={styles.alumniButtonDiv}>
   <button className={styles.alumniButton}>

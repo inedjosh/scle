@@ -373,11 +373,13 @@ position: relative;
   font-weight: 300;
 }
 .input{
-  width: 700px;
+  width: 80%;
   height: 50px;
   font-size: 17px;
     font-family: 'Montserrat', sans-serif;
     padding-left:10px;
+    outline: none;
+    border: 1px solid #ccc;
 }
 .redColor{
   color: red
@@ -408,6 +410,7 @@ font-family: 'Montserrat', sans-serif;
   font-family: 'Montserrat', sans-serif;
   position: relative;
 }
+
 .alumniHeading{
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
@@ -712,32 +715,7 @@ display: none;
  display: none
 
 }
-.flexDiv{
-  display: flex;
-  flex-direction: column;
-   flex-direction: column-reverse; 
-  justify-content: space-around;
-  font-family: 'Montserrat', sans-serif;
-  width: 100%;
-  margin-top:60px;
-  align-items: center;
-}
-.btnDiv{
-  background-color: #2E3192;
-  color: #fff;
-  width: 120px;
-  height:50px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.textDiv{
-  padding: 0 50px
-}
-.divImage{
-  width: 100%;
-}
+
 .heroText{
   color: #fff;
   font-size:25px;
@@ -793,15 +771,28 @@ display: none;
   align-items: center;
   z-index: 20;
 }
-
-.whoWeAreImageDiv{
-  position: relative;
-  height: 400px;
+.whoWeAre{
+  padding: 10px 10px;
+  margin-top: -170px;
+  width: 100vw;
+}
+.mainHeading{
+  font-size: 25px;
+}
+.flexDiv{
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column-reverse;
+  margin-top: -5px;
+}
+.textDiv{
+  margin-top: -50px;
+}
+.divImageMain{
+  height: 100px;
 }
 .overlapImages{
-  position: absolute;
-  bottom: -50px;
-  left: 10%
+ display: none;
 }
 .redBar{
   background-color: #DA1C5C;
@@ -818,54 +809,12 @@ display: none;
  left: 20;
  right:20;
 }
-.whoWeAreImageDivMain{
-  width: 100%;
-  /* height: 100px; */
-}
-.divImageMain{
-  width: 100%;
-  height: 100%; 
-}
-.whoWeAreImageDiv{
-  padding: 0 20px;
-}
-.mainHeading{
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  font-size:25px;
-  font-weight: 900;
-  margin-top:10px;
-}
-.flexDiv{
-  display: flex;
-  flex-direction: column-reverse;
-  justify-content: space-around;
-  font-family: 'Montserrat', sans-serif;
-  /* width: 100%; */
-  margin-top:10px;
-  align-items: center;
-  padding: 0 ;
-}
-.subHeadingText{
-  font-size: 14px;
-  padding: 0;
-}
+
 .overlapImages{
   display: none;
 }
-.textDiv{
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-  padding: 0 15px;
-}
-.subHeading{
-  color: #2E3192;
-  text-transform: uppercase;
-  font-size: 18px;
-  padding: 0;
-  margin-top: 10px;
-}
+
+
 .heroSubText{
   font-size: 10px;
 }
@@ -882,7 +831,7 @@ display: none;
 .programme{
   display: flex;
   flex-direction: column;
-margin-top:20px
+/* margin-top:20px */
 }
 .backgroundHeading{
   background-color: #2E3192;
@@ -895,6 +844,9 @@ margin-top:20px
   color: white;
    font-family: 'Montserrat', sans-serif;
   
+}
+.hide{
+  display: none;
 }
 .headingBtn{
  display: none
@@ -1017,7 +969,8 @@ position: relative;
 }
 .contact{
   padding: 10px;
-  margin-top:30px;
+  margin-top:-50px;
+  /* margin-bottom: 50px; */
   font-family: 'Montserrat', sans-serif;
 }
 .contactImage{
@@ -1029,9 +982,8 @@ position: relative;
 
 
 .form{
-  position: absolute;
-  top:1px;
-  width: 85%;
+  position: relative;
+  width: 100%;
   display:flex;
   justify-content: center;
   flex-direction: column;
@@ -1040,14 +992,14 @@ position: relative;
 .bigHeading{
   font-size: 15px;
   font-weight:300;
-  color:white;
+  color:black;
   text-align: center;
   margin-top:20px;
 }
 .formText{
   font-size: 10px;
   font-weight:300;
-  color:white;
+  color:black;
   text-align: center;
   margin-top: -10px;
   text-align: center;
@@ -1061,12 +1013,12 @@ position: relative;
 .label{
   font-size: 10px;
   font-family: 'Montserrat', sans-serif;
-  color: white;
+  color: black;
   font-weight: 300;
 }
 .input{
   width: 100%;
-  height: 25px;
+  height: 35px;
   font-size: 17px;
     font-family: 'Montserrat', sans-serif;
     padding-left:10px;
@@ -1083,7 +1035,7 @@ position: relative;
 .formBtn{
   background-color: #407BFF;
   width: 100%;
-  height: 50px;
+  height: 38px;
   border: none;
   outline: none;
   color: white;

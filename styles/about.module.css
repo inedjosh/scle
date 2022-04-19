@@ -512,7 +512,7 @@ width: 350px
     padding-right: 10px;
     margin-right: 10px;
 }
-@media only screen and (max-width: 850px) and (min-width: 650px) {
+@media only screen and (max-width: 850px) and (min-width: 600px) {
 
 .videoHolder{
     display: flex;
