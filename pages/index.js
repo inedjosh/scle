@@ -192,6 +192,7 @@ export default function Home() {
           className={styles.alumniImage}
          />
         </div>
+       
 <p className={styles.alumniTextBottom}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisi neque pulvinar erat amet porttitor amet, blandit vulputate. Sed adipiscing dignissim placerat </p>
 <div className={styles.alumniButtonDiv}>
   <button className={styles.alumniButton}>
