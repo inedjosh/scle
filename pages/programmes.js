@@ -120,7 +120,7 @@ function programmes() {
         </div>
     <h2 className={styles.studentName}>Jonathan Mikeson</h2>
                
-    <p className={styles.studentText}> A wonderful program indeed! one i'll refer for all my friends and loved ones, try it and you'll see how good it is</p>
+    <p className={styles.studentText}> A wonderful program indeed! one i will refer for all my friends and loved ones, try it and you will see how good it is</p>
         </div>
     <div className={styles.award}>
     <Image src={award}  alt='award'/>
