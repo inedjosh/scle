@@ -41,7 +41,8 @@ export default function Home() {
     </div>
     <div className={styles.heroTextSub}>
       <div className={styles.redBar}></div>
-      <p className={styles.heroParagraph}>SuccessLorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisi neque pulvinar erat </p>
+      <p className={styles.heroParagraph}> To spread prosperity and peace for everyone every where in the world
+ </p>
     </div>
    </div>
      </div>
@@ -60,7 +61,7 @@ export default function Home() {
 
       <div className={styles.textDiv}>
        <h2 className={styles.subHeading}>Leading leadership institute in nigeria and large</h2>
-       <p className={styles.subHeadingText}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Laoreet tortor elementum, sed augue in ut aliquam. Imperdiet netus consequat tincidunt viverra. Netus commodo lectus egestas facilisis parturient fames condimentum quis tristique. Suspendisse molestie convallis eget ipsum. Adipiscing molestie id nisl sagittis porttitor consectetur maecenas malesuada. Massa euismod sodales sed convallis facilisis adipiscing risus, adipiscing enim. Tempus aliquet lacus, ullamcorper quis diam vivamus praesent sed vitae. Vulputate odio venenatis in quam arcu amet sit. Magna enim accumsan curabitur lorem sodales lectus.z</p>
+       <p className={styles.subHeadingText}>School of Christian Leadership and Entrepreneurship (SCLE) is a capacity building intervention that promotes excellent leadership and business management practices that are sourced from biblical principles and practices. SCLE is a faith-based institute that promotes Christian values in public and private life as a form of evangelism for prosperity and social peace and their sustainability. SCLE builds the capacity of public and private leaders and managers to identity critical issues, processes and values that promotes prosperity, harmonious interdependence and social justice and establish consensus and commitment on institutions that guarantee sustainable prosperity and freedom. To achieve sustainable prosperity and just social order, SCLE focuses on imparting technical skills required to drive innovative business and innovative practices that can create prosperity and turn ideas from dreams into enterprise   </p>
        <div className={styles.btnDiv}>Learn more</div>
        </div>
       <div className={styles.whoWeAreImageDiv}>
@@ -110,7 +111,7 @@ export default function Home() {
             <h2 className={styles.overlapHeading}>certificate program in christian leadership</h2>
          </div>
          <div className={styles.overlapTextDiv}>
-           <p className={styles.overlapText}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisi neque pulvinar erat amet porttitor amet, blandit vulputate. Sed adipiscing dignissim placerat </p>
+           <p className={styles.overlapText}>Our mission is to build a prosperous and peaceful environment for everyone by equipping global leaders with ethical and technical capabilities through an innovative and value-based leadership and management education. We leverage on the wisdom revealed in the Word of God to groom effective leaders to become beacons of light in industry and governance around the world.   </p>
          </div>
          <div className={styles.overlapList}>
            <p className={styles.listOverlap}><AiOutlineCalendar className={styles.whiteColor}/> 3 Months</p>
@@ -123,7 +124,7 @@ export default function Home() {
         </div>
        </div>
        </div>
-       <div className={styles.programme}>
+       {/* <div className={styles.programme}>
        <div className={styles.backgroundHeading}>
          <h3 className={styles.headingText}>Community updates</h3>
          <div className={styles.headingBtn}>
@@ -137,7 +138,7 @@ export default function Home() {
           alt='image'
         />
        </div>
-       </div>
+       </div> */}
        <div className={styles.testimony}>
          <Image
         src={backgroundTestimony}
@@ -147,7 +148,8 @@ export default function Home() {
         <div className={styles.testimonyBox}>
 <h3 className={styles.headingText}>Testimonials</h3>
 
-  <p className={styles.testimonyText}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Laoreet tortor elementum, sed augue in ut aliquam. Imperdiet netus consequat tincidunt viverra. Netus commodo lectus egestas facilisis parturient fames condimentum  in quam arcu amet sit. Magna enim accumsan curabitur lorem sodales lectus.</p>
+  <p className={styles.testimonyText}>
+  SCLE is the best place to be, indeed joining the program has changed my life alot!</p>
    <div className={styles.testimonyImageDiv}>
      <Image
         src={image1}
@@ -172,7 +174,7 @@ export default function Home() {
         </div>
         <div className={styles.form}>
         <h2 className={styles.bigHeading}>Stay updated</h2>
-        <p className={styles.formText}>stay updated on news, events, entrepeneurs, research and more</p>
+        <p className={styles.formText}>stay updated on news, events, entrepreneurs, research and more</p>
        <div className={styles.formDiv}>
          <label className={styles.label}>Email Address <span className={styles.redColor}>*</span></label>
           <input className={styles.input} type='text' />
@@ -185,7 +187,9 @@ export default function Home() {
        </div>
        <div className={styles.alumni}>
          <h2 className={styles.alumniHeading}> Partner with our alumni</h2>
-         <p className={styles.alumniTextTop}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisi neque pulvinar erat amet porttitor amet, blandit vulputate. Sed adipiscing dignissim placerat </p>
+         <p className={styles.alumniTextTop}>
+        Leveraging the wisdom entrenched in the Word of God effective leaders will be groomed as beacons of light in industry and governance around the world.  
+        </p>
         <div className={styles.partnerImage}>
            <Image src={alumni}
           alt='image'
@@ -193,7 +197,10 @@ export default function Home() {
          />
         </div>
        
-<p className={styles.alumniTextBottom}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisi neque pulvinar erat amet porttitor amet, blandit vulputate. Sed adipiscing dignissim placerat </p>
+<p className={styles.alumniTextBottom}>
+To build a world of prosperity and peace for every one by equipping global leaders with ethical and technical capabilities through an innovative and value-based leadership and management education
+
+</p>
 <div className={styles.alumniButtonDiv}>
   <button className={styles.alumniButton}>
   Connect Now

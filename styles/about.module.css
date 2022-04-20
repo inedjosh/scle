@@ -103,7 +103,10 @@ margin: 20px 0;
     font-size: 11px;
     width: 7rem;
 }
-
+.icon{
+    font-size: 70px;
+    color: var(--blue)
+}
 .about{
        --blue: rgb(5, 5, 150);
     --lightblue: rgb(55, 55, 248);
@@ -155,6 +158,9 @@ margin: 20px 0;
     font-size: 1rem;
     font-weight: bold;
 
+}
+.sectionText{
+    font-size:15px;
 }
 
 .firstImageHolder{
@@ -259,10 +265,12 @@ margin: 20px 0;
 .headingfaculties1{
     border-right: 4px solid red;
     padding-right: 10px;
+    text-transform: uppercase;
 }
 .headingfaculties2{
     border-left: 4px solid red;
     padding-left: 10px;
+    text-transform: uppercase;
 }
 
 .textSectionStyle2 .textHolder {
@@ -536,6 +544,9 @@ width: 350px
     text-align: center;
     font-weight: 300;
 }
+.icon{
+    font-size: 45px;
+}
 
 }
 
@@ -587,5 +598,8 @@ width: 350px
     width: 90vw;
     height: 500px;
       margin-top: 50px;
+}
+.icon{
+    font-size:30px;
 }
 }
