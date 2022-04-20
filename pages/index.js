@@ -36,12 +36,14 @@ export default function Home() {
      <div className={styles.overlay}></div>
    <div className={styles.heroDescription}>
       <div className={styles.heroText}>
-      We nuture great <br/>
-      ideas for <span className={styles.heroTextBlue}>success</span>
+  To spread  prosperity<br/> and peace 
+   for  everyone  <br/>  every where in the  <span className={styles.heroTextBlue}>world</span>
     </div>
     <div className={styles.heroTextSub}>
       <div className={styles.redBar}></div>
-      <p className={styles.heroParagraph}> To spread prosperity and peace for everyone every where in the world
+      <p className={styles.heroParagraph}> 
+      Leveraging the wisdom entrenched in the Word of God effective leaders will be groomed as beacons of light in industry and governance around the world.  
+
  </p>
     </div>
    </div>
@@ -62,7 +64,7 @@ export default function Home() {
       <div className={styles.textDiv}>
        <h2 className={styles.subHeading}>Leading leadership institute in nigeria and large</h2>
        <p className={styles.subHeadingText}>School of Christian Leadership and Entrepreneurship (SCLE) is a capacity building intervention that promotes excellent leadership and business management practices that are sourced from biblical principles and practices. SCLE is a faith-based institute that promotes Christian values in public and private life as a form of evangelism for prosperity and social peace and their sustainability. SCLE builds the capacity of public and private leaders and managers to identity critical issues, processes and values that promotes prosperity, harmonious interdependence and social justice and establish consensus and commitment on institutions that guarantee sustainable prosperity and freedom. To achieve sustainable prosperity and just social order, SCLE focuses on imparting technical skills required to drive innovative business and innovative practices that can create prosperity and turn ideas from dreams into enterprise   </p>
-       <div className={styles.btnDiv}>Learn more</div>
+       {/* <div className={styles.btnDiv}>Learn more</div> */}
        </div>
       <div className={styles.whoWeAreImageDiv}>
            <Image
@@ -94,9 +96,9 @@ export default function Home() {
        <div className={styles.programme}>
        <div className={styles.backgroundHeading}>
          <h3 className={styles.headingText}>Our programmes</h3>
-         <div className={styles.headingBtn}>
+         {/* <div className={styles.headingBtn}>
            Learn more
-         </div>
+         </div> */}
        </div>
        <div className={styles.sectionImageDiv}>
          <div className={styles.hide}>

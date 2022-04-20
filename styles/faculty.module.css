@@ -48,8 +48,8 @@
 }
 .greyDiv{
    flex: .5;
-   height:400px;
-    background-color: #ccc;
+   /* height:400px; */
+    /* background-color: #ccc; */
     margin:20px;
 }
 .textHolder{
@@ -134,9 +134,9 @@
        flex-direction: column;
 }
 .greyDiv{
-   height:400px;
+   /* height:400px; */
    width: 95%;
-    background-color: #ccc;
+    /* background-color: #ccc; */
     margin:5px;
 flex: none;
 margin: 0 10px;

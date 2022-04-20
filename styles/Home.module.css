@@ -108,12 +108,12 @@ position: relative;
 }
 .heroText{
   color: #fff;
-  font-size:80px;
+  font-size:65px;
   font-family: 'Montserrat', sans-serif;
  margin-top: 80px;
  margin-left: 50px;
  z-index: 20;
- font-weight: bolder;
+ font-weight: 900;
 }
 .heroTextBlue{
   color: #407BFF
@@ -121,9 +121,9 @@ position: relative;
 .heroParagraph{
   color: #fff;
    font-family: 'Montserrat', sans-serif;
-   font-weight: 500;
+   font-weight: 900;
    font-size: 20px;
-   width: 450px;
+   width: 600px;
    padding-left: 15px;
    font-size: 14px;
 }
@@ -611,7 +611,8 @@ flex-direction: column;
 .formDiv{
   display: flex;
   flex-direction: column;
-  margin:10px 0 0 40px;
+ justify-content: center;
+ align-items: center;
   width: 100%;
 }
 .label{
@@ -878,10 +879,10 @@ position: relative;
 .overlap{
   background-color: #DA1C5C;
   width: 100%;
-  height: 600px;
+  /* height: 600px; */
   font-family: 'Cinzel', serif;
     color: white;
-    padding:0;
+    padding:  30px 5px 30px;
     margin:0;
 }
 .overlapTextDiv{
@@ -929,9 +930,9 @@ position: relative;
    width: 80%;
 }
 .testimony{
-  margin-top:20px;
+  /* margin-top:20px; */
   position: relative;
-   height: 280px;
+   /* height: 280px; */
 }
 .testimonyBox{
   position: absolute;
@@ -1037,12 +1038,12 @@ position: relative;
 .formBtnDiv{
   display:flex;
   justify-content: flex-start;
-  width:64%;
+  /* width:64%; */
   margin-top:25px
 }
 .formBtn{
   background-color: #407BFF;
-  width: 100%;
+  width: 80%;
   height: 38px;
   border: none;
   outline: none;
@@ -1051,6 +1052,7 @@ position: relative;
   font-size: 17px;
   align-self: flex-start;
 font-family: 'Montserrat', sans-serif;
+margin-left: 20px;
 }
 .alumni{
   display: flex;

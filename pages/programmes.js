@@ -8,11 +8,14 @@ import man from './../images/man-scle.png'
 import phone from './../images/phone.png'
 import certificate from './../images/image-certificate.png'
 import { HiOutlineAcademicCap } from 'react-icons/hi';
-import { AiOutlineCalendar } from 'react-icons/ai';
+import { AiOutlineCalendar, AiOutlineSafetyCertificate } from 'react-icons/ai';
 import { IoIosPeople } from 'react-icons/io';
 import { BsSun, BsShieldLock } from 'react-icons/bs';
 import { WiTsunami } from 'react-icons/wi';
+import { BiCertification } from 'react-icons/bi';
+import { GrCertificate } from 'react-icons/gr';
 import { GiAlarmClock } from 'react-icons/gi';
+import image3 from './../images/man-1.jpeg'
 
 
 function programmes() {
@@ -64,57 +67,60 @@ function programmes() {
     </div>
     <div className={styles.obj}>
         <h2 className={styles.objHeading}>
-            Our key objectives
+            Our Programmes
         </h2>
      
      
         <div className={styles.sectionHolder}>
            
-          <div className={styles.sectionHolder}>
+  
             <div className={styles.sections}>
                <BsSun className={styles.icon} />
-                <h3 className={styles.title}>#Effectiveness 
+                <h3 className={styles.title}>Certificate programme in Christian Leadership -  3 Months
+ 
 </h3>
-                <p className={styles.sectionText}>
-                   Leadership is a core focus of the scriptures. The major messages in the bible are about the failures of leadership, its huge consequences and principles that define effective and good leadership 
-
-                </p>
+                
             </div><div className={styles.sections}>
                 <GiAlarmClock  className={styles.icon} />
-                <h3 className={styles.title}>#Purposefulness</h3>
-                <p className={styles.sectionText}>
-                  The bible is clear on the purpose of leadership, to wit, to promote righteousness and justice. And the results of righteous and just leadership are prosperity and peace
-
-                </p>
+                <h3 className={styles.title}>	Diploma in Christian Leadership and Entrepreneurship -   9 months</h3>
+               
             </div>
             <div className={styles.sections}>
                 <BsShieldLock className={styles.icon}/>
-                <h3 className={styles.title}> #proven-leadership  </h3>
-                <p className={styles.sectionText}>
-                    SCLE provides teachings on proven leadership principles from the pages of the Holy Scripture and use same to equip individuals to excel beyond their expectation
-
-                </p>
+                <h3 className={styles.title}> Advanced Diploma in Christian Leadership and Business management - 18 months  </h3>
+                
+   
+       </div>
+            <div className={styles.sections}>
+                <BiCertification className={styles.icon}/>
+                <h3 className={styles.title}>	Work place coaching in Strategy and Organizational Behaviour - 7 days </h3>
+               
+   
+       </div>
+            <div className={styles.sections}>
+                <AiOutlineSafetyCertificate className={styles.icon}/>
+                <h3 className={styles.title}>		Workshops dedicated to specific areas of our curriculum – 3 to 5days.  </h3>
+               
    
        </div>
             <div className={styles.sections}>
                 <WiTsunami className={styles.icon}/>
-                <h3 className={styles.title}>#Value-driven </h3>
-                <p className={styles.sectionText}>
-At SCLE we reinvest commitment on the importance of value in leadership and management education. We are transforming leadership and management education by focusing on both ethical and technical capabilities of effective leadership
-
-                </p>
+                <h3 className={styles.title}>	One day Outreach Seminars and Public Speaking Engagements  </h3>
+               
    
-       </div>
+  
 </div>  
 </div>  
     </div>
 
     <div className={styles.student}>
         <h2 className={styles.studentHeading}>What our students have to say</h2>
-        <div className={styles.studentImg}></div>
+        <div className={styles.studentImg}>
+            <Image  className={styles.studentImage} alt='image' src={image3} />
+        </div>
     <h2 className={styles.studentName}>Jonathan Mikeson</h2>
                
-    <p className={styles.studentText}> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisi neque pulvinar erat </p>
+    <p className={styles.studentText}> A wonderful program indeed! one i'll refer for all my friends and loved ones, try it and you'll see how good it is</p>
         </div>
     <div className={styles.award}>
     <Image src={award}  alt='award'/>

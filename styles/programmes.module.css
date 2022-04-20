@@ -72,7 +72,8 @@ margin: 0 40px;
     color: #2E3192;
 }
 .title{
-    color: rgb(55, 55, 248);
+    /* color: rgb(55, 55, 248); */
+    font-size: 17px;
 }
 .obj{
     text-align: center;
@@ -92,7 +93,7 @@ margin: 0 40px;
 .sectionHolder{
     width: 100%;
     display: flex;
-    padding: 0 50px;
+    padding: 0 20px;
     justify-content: space-around;
     align-items: center;
 }
@@ -266,9 +267,16 @@ margin: 0 40px;
     width: 100px;
     height: 100px;
     border-radius:100%;
-    background-color: #ccc;
-    border: 3px dashed #ccc;
+    /* background-color: #ccc; */
+    /* border: 3px dashed #ccc; */
     padding: 10px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+.studentImage{
+    width:100%;
+    height: 100%;
+    border-radius: 50%;
 }
 .studentHeading{
     font-family: 'Montserrat', sans-serif;
@@ -325,12 +333,13 @@ margin: 0 40px;
 .overlap{
   background-color: #DA1C5C;
   width: 100%;
-  height: 400px;
+  /* height: 400px; */
   font-family: 'Cinzel', serif;
     color: white;
     display: flex;
     padding: 30px 0;
     align-items: flex-start;
+    flex-direction: column;
 }
 .certificateImageDiv{
 border: 2px dashed #DA1C5C;
@@ -402,7 +411,7 @@ margin: 0 20px;
 .overlap{
   background-color: #DA1C5C;
   width: 100%;
-  height: 500px;
+  /* height: 500px; */
   font-family: 'Cinzel', serif;
     color: white;
     display: flex;

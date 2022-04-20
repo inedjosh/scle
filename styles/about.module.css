@@ -32,6 +32,8 @@ font-family: 'Montserrat', sans-serif;
 text-align: center;
 padding: 20px;
 margin: 20px 0;
+flex-direction: column;
+align-items: center;
     }
 
 
@@ -194,30 +196,48 @@ margin: 20px 0;
     margin-top: -3rem;
 }
 .greyBox{
-    background-color: #ccc;
+    /* background-color: #ccc; */
     width: 600px;
     height: 500px; 
+    margin-top: 80px;
+}
+.greBoxImg{
+    width:100%;
+    height: 100%;
 }
 
 .greyDiv{
     background-color: #ccc;
     width: 400px;
-    height: 400px;
+    /* height: 400px; */
 }
 
 .greyBox2{
-    background: var(--grey);
     width: 80vw;
-    height: 500px;
-      margin-top: 50px;
+    /* height: 500px; */
+    /* margin-top: 50px; */
+
 }
-
-
+.greBox2Img{
+    height: 100%;
+    width: 100%;
+}
+.headingText{
+    /* margin-top:250px; */
+    /* margin-bottom: -50px; */
+}
 .greyBox3{
-    background: var(--grey);
+    /* background: var(--grey); */
     width: 400px;
-    height: 500px;
+    /* height: 500px; */
       
+}
+.boldText{
+    font-weight:900;
+
+}
+.paddedText{
+    padding: 0 20px;
 }
 
 .textHolderDiv{
@@ -414,7 +434,7 @@ width: 350px
 }
 
 .redTextBackground{
-    width: 100vw;
+    width: 100%;
     padding: 45px 30px;
     text-align: center;
     background: #FFD2DD;
@@ -424,13 +444,15 @@ width: 350px
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  margin: 30px;
+  font-weight: 900;
 }
 
 .redBackgroundText{
     font-size: 15px;
     width:700px;
     text-align: center;
-    font-weight: 300;
+    font-weight: 900;
 }
 .sections{
     display: flex;
@@ -465,7 +487,7 @@ width: 350px
     justify-content: center;
     margin-top: 3rem;
    font-family: 'Montserrat', sans-serif;
-     margin-top: 40px;
+     margin-top: 60px;
 }
 
 .objContainer{
@@ -547,6 +569,9 @@ width: 350px
 .icon{
     font-size: 45px;
 }
+.paddedText{
+    padding: 0 10px;
+}
 
 }
 
@@ -561,6 +586,7 @@ width: 350px
 }
 .greyBox{
     width: 90%;
+    margin-top: -20px;
 }
 .blue{
     font-size:20px
@@ -573,8 +599,7 @@ width: 350px
     flex-direction: column;
 }
 .redTextBackground{
-    /* width: 100%; */
-    /* padding: 45px 30px; */
+ margin:0;
     text-align: center;
     background: #FFD2DD;
     opacity: .7;
@@ -594,10 +619,13 @@ width: 350px
     width: 90%;
 }
 .greyBox2{
-    background: var(--grey);
+    /* background: var(--grey); */
     width: 90vw;
-    height: 500px;
+    /* height: 500px; */
       margin-top: 50px;
+}
+.nextDivContainer{
+    margin-top: -300px;
 }
 .icon{
     font-size:30px;

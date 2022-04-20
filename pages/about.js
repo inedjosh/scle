@@ -6,6 +6,9 @@ import styles from './../styles/about.module.css'
 import { BsSun, BsShieldLock } from 'react-icons/bs';
 import { WiTsunami } from 'react-icons/wi';
 import { GiAlarmClock } from 'react-icons/gi';
+import image1 from './../images/about-1.jpg'
+import image2 from './../images/about-2.jpg'
+import image3 from './../images/sam.jpeg'
 
 
 
@@ -18,7 +21,9 @@ function about() {
    
         
         <div className={styles.videoHolder}>
-            <div className={styles.greyBox}></div>
+            <div className={styles.greyBox}>
+                <Image  className={styles.greyBoxImg} alt='image' src={image1} />
+            </div>
 
             <div className={styles.theText}>
                 <h2 className={styles.blue}>
@@ -38,10 +43,11 @@ Nigeria has an urgent need for quality leadership and management education for p
 
     <div className={styles.nextDivContainer}>
 
-        <div className={styles.nextDiv}>
-            <div className={styles.greyBox2}></div>
-    <h2 className={styles.headingText}>We are impact driven</h2>
-        </div>
+            <div className={styles.greyBox2}>
+                    <Image  className={styles.greyBox2Img} alt='image' src={image2} />
+            </div>
+   
+         <h2 className={styles.headingText}>We are impact driven</h2>
     </div>
   
 
@@ -106,12 +112,13 @@ At SCLE we reinvest commitment on the importance of value in leadership and mana
     <h2 className={styles.headingText}>Meet the founder</h2>
 <div className={styles.greyBoxContainer}>
     <div className={styles.greyBox3}>
+    <Image  className={styles.greyBoxImg} alt='image' src={image3} />
     </div>
 </div>
 
 <p>CEO/Founder</p>
-<p>Surname Firstname</p>
-<p>#Bio</p>
+<p className={styles.boldText}>Dr. Sam Amadi</p>
+<p className={styles.paddedText}>Dr Sam Amadi, a policy strategist and law and governance expert, is the Director of Abuja School of Social and Political Thoughts and a Visiting Professor at the Emerald Energy Institute at the University of Port Harcourt. He is the Chair of the Development Law Group of the Nigerian Bar Association’s Section on Public Interest Law and Development (SPIDEL), which he as a founding council member. He was Associate Professor and Head of Department of International Law and Jurisprudence at Baze University, Abuja until June 2021. He was a Visiting Research Fellow at the Nigerian Institute of Advanced Legal Studies from 2016-2018. Between 2010-2015, he was Chairman and CEO of the Nigerian Electricity Regulatory Commission (NERC). He has been editor of journals and held lecturing and advisory positions in universities, government institutions and international organizations.Amadi has been a member of several boards including, UN’s Advisory Council of Global Electricity Initiative, Section on Public Interest and Development Law of the Nigerian Bar Association, Center for Law and Social Action (CLASA), and Maldova Foundation, a Washington-based policy Think Tank. He is the Chair of Board of Trustee of Albino Association of Nigeria and Civil Liberties Organization, Abuja Branch</p>
    
 </div>
 <FooterTwo />
