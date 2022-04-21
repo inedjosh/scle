@@ -39,7 +39,8 @@ function programmes() {
             </div>
             <div className={styles.explore}>
                 <h2 className={styles.exploreHeading}>Explore our programs</h2>
-                <p className={styles.exploreText}>Our mission is to build a prosperous and peaceful environment for everyone by equipping global leaders with ethical and technical capabilities through an innovative and value-based leadership and management education.  </p>
+                <p className={styles.exploreText}>SCLE is an intervention to promote good leadership and business management practices that are sourced from the eternal and proven Christian values
+ </p>
             </div>
     <div>
     <div className={styles.certificateImageDiv}>
@@ -51,7 +52,13 @@ function programmes() {
          </div>
         <div>
              <div className={styles.overlapTextDiv}>
-           <p className={styles.overlapText}>Our mission is to build a prosperous and peaceful environment for everyone by equipping global leaders with ethical and technical capabilities through an innovative and value-based leadership and management education. We leverage on the wisdom revealed in the Word of God to groom effective leaders to become beacons of light in industry and governance around the world.</p>
+           <p className={styles.overlapText}>
+           
+SCLE is a faith-based institute that promotes Christian values in public life as a form of evangelism for life and public sustainability. 
+SCLE builds the capacity of public and private leaders and managers to identity critical issues, processes and values that promotes prosperity, harmonious interdependence and social justice and establish consensus and commitment on institutions that guarantee sustainable prosperity and freedom
+SCLE also focus on imparting technical skills required to drive innovative and small-scale business ideas from being a dream to becoming flourishing enterprise   
+
+          </p>
          </div>
          <div className={styles.overlapList}>
            <p className={styles.listOverlap}><AiOutlineCalendar className={styles.whiteColor}/> 3 Months</p>

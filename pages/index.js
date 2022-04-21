@@ -95,7 +95,7 @@ export default function Home() {
        </div>
        <div className={styles.programme}>
        <div className={styles.backgroundHeading}>
-         <h3 className={styles.headingText}>Our programmes</h3>
+         <h3 className={styles.headingText}>Our Mission</h3>
          {/* <div className={styles.headingBtn}>
            Learn more
          </div> */}
@@ -109,9 +109,9 @@ export default function Home() {
         />
          </div>
         <div className={styles.overlap}>
-         <div>
+         {/* <div>
             <h2 className={styles.overlapHeading}>certificate program in christian leadership</h2>
-         </div>
+         </div> */}
          <div className={styles.overlapTextDiv}>
            <p className={styles.overlapText}>Our mission is to build a prosperous and peaceful environment for everyone by equipping global leaders with ethical and technical capabilities through an innovative and value-based leadership and management education. We leverage on the wisdom revealed in the Word of God to groom effective leaders to become beacons of light in industry and governance around the world.   </p>
          </div>

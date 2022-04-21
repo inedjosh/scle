@@ -438,7 +438,8 @@ width: 350px
     padding: 45px 30px;
     text-align: center;
     background: #FFD2DD;
-    opacity: .7;
+    opacity: .9;
+    color: black;
   font-family: 'Montserrat', sans-serif;
   display: flex;
   justify-content: center;

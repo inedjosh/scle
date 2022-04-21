@@ -255,7 +255,7 @@ position: relative;
 .overlapTextDiv{
   font-family: 'Montserrat', sans-serif;
   padding: 30px 10px;
-  border-top: 1px solid white;
+  /* border-top: 1px solid white; */
   border-bottom: 1px solid white;
   margin: 0 30px;
 }
