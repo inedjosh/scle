@@ -550,6 +550,7 @@ flex-direction: column;
 .testimony{
   margin-top:50px;
   position: relative;
+  margin-bottom: 50px;
 }
 .testimonyBox{
   position: absolute;
@@ -584,6 +585,9 @@ flex-direction: column;
   align-self: flex-start;
   display:flex;
   justify-self: flex-start;
+}
+.contact{
+  margin-top: 150px;
 }
 .form{
   position: absolute;
@@ -888,7 +892,7 @@ position: relative;
 .overlapTextDiv{
   font-family: 'Montserrat', sans-serif;
   padding: 30px 0;
-  border-top: 1px solid white;
+  /* border-top: 1px solid white; */
   border-bottom: 1px solid white;
   margin: 0 30px;
 }

@@ -62,7 +62,7 @@ SCLE also focus on imparting technical skills required to drive innovative and s
          </div>
          <div className={styles.overlapList}>
            <p className={styles.listOverlap}><AiOutlineCalendar className={styles.whiteColor}/> 3 Months</p>
-           <p className={styles.listOverlap}><HiOutlineAcademicCap className={styles.whiteColor} /> Faculty</p>
+           <p className={styles.listOverlap}><HiOutlineAcademicCap className={styles.whiteColor} />6 Faculties</p>
            <p className={styles.listOverlap}><IoIosPeople className={styles.whiteColor}/>178 Students</p>
          </div>
          <div>
