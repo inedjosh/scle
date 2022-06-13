@@ -315,6 +315,7 @@ position: relative;
      font-family: 'Montserrat', sans-serif;
      text-align: center;
      margin-top: 40px;
+     
 }
 .testimonyText{
   background-color: white;
@@ -323,6 +324,7 @@ position: relative;
   margin-top: 50px;
       font-family: 'Montserrat', sans-serif;
       font-weight: 300;
+      font-size: 30px;
 }
 .testimonyImageDiv{
   display:flex;
@@ -353,7 +355,7 @@ position: relative;
 }
 .bigHeading{
   font-size: 45px;
-  font-weight:300;
+  font-weight:800;
   color:white;
   text-align: center;
   margin-top:40px;
@@ -418,7 +420,7 @@ margin-left: 120px;
 
 .alumniHeading{
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
   margin-bottom: 20px 0;
 }
 .alumniImage{
@@ -428,15 +430,15 @@ margin-left: 120px;
   right: 20px;
 }
 .alumniTextTop{
-  position: absolute;
-  top: 70px;
+
+
   width: 70%;
   font-weight: 300;
   text-align: center;
 }
 .alumniTextBottom{
-  position: absolute;
-  bottom: 70px;
+
+
   width: 70%;
   font-weight: 300;
   text-align: center;

@@ -66,14 +66,16 @@ export default function Home() {
               School of Christian Leadership and Entrepreneurship (SCLE) is a
               capacity building intervention that promotes excellent leadership
               and business management practices that are sourced from biblical
-              principles and practices. SCLE is a faith-based institute that
-              promotes Christian values in public and private life as a form of
-              evangelism for prosperity and social peace and their
-              sustainability. SCLE builds the capacity of public and private
-              leaders and managers to identity critical issues, processes and
-              values that promotes prosperity, harmonious interdependence and
-              social justice and establish consensus and commitment on
-              institutions that guarantee sustainable prosperity and freedom. To
+              principles and practices.
+              <br /> <br />
+              SCLE is a faith-based institute that promotes Christian values in
+              public and private life as a form of evangelism for prosperity and
+              social peace and their sustainability. <br /> <br />
+              SCLE builds the capacity of public and private leaders and
+              managers to identity critical issues, processes and values that
+              promotes prosperity, harmonious interdependence and social justice
+              and establish consensus and commitment on institutions that
+              guarantee sustainable prosperity and freedom. <br /> <br /> To
               achieve sustainable prosperity and just social order, SCLE focuses
               on imparting technical skills required to drive innovative
               business and innovative practices that can create prosperity and
@@ -207,9 +209,9 @@ export default function Home() {
           will be groomed as beacons of light in industry and governance around
           the world.
         </p>
-        <div className={styles.partnerImage}>
+        {/* <div className={styles.partnerImage}>
           <Image src={alumni} alt="image" className={styles.alumniImage} />
-        </div>
+        </div> */}
 
         <p className={styles.alumniTextBottom}>
           To build a world of prosperity and peace for every one by equipping
