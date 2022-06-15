@@ -139,9 +139,7 @@ SCLE also focus on imparting technical skills required to drive innovative and s
           loved ones, try it and you will see how good it is
         </p>
       </div>
-      <div className={styles.award}>
-        <Image src={award} alt="award" />
-      </div>
+
       <Footer />
     </div>
   );
