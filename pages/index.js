@@ -5,7 +5,7 @@ import logo from "./../images/MAIN-LOGO.png";
 import lady from "./../images/lady.png";
 import background from "./../images/new-hero.jpg";
 import Link from "next/link";
-import course from "./../images/guy-home.png";
+import course from "./../images/friends-image.jpg";
 import community from "./../images/community.png";
 import Header from "./../components/Header";
 import backgroundTestimony from "./../images/backgroundTestimony.png";
@@ -60,7 +60,7 @@ export default function Home() {
         <div className={styles.flexDiv}>
           <div className={styles.textDiv}>
             <h2 className={styles.subHeading}>
-              Leading leadership institute in nigeria and large
+              A leading leadership institute 
             </h2>
             <p className={styles.subHeadingText}>
               School of Christian Leadership and Entrepreneurship (SCLE) is a
@@ -73,13 +73,13 @@ export default function Home() {
               social peace and their sustainability. <br /> <br />
               SCLE builds the capacity of public and private leaders and
               managers to identity critical issues, processes and values that
-              promotes prosperity, harmonious interdependence and social justice
+              promote prosperity, harmonious interdependence and social justice
               and establish consensus and commitment on institutions that
               guarantee sustainable prosperity and freedom. <br /> <br /> To
               achieve sustainable prosperity and just social order, SCLE focuses
               on imparting technical skills required to drive innovative
-              business and innovative practices that can create prosperity and
-              turn ideas from dreams into enterprise{" "}
+              business practices that can create prosperity and turn ideas from
+              dreams into enterprise.
             </p>
             {/* <div className={styles.btnDiv}>Learn more</div> */}
           </div>
@@ -102,7 +102,11 @@ export default function Home() {
         </div>
         <div className={styles.sectionImageDiv}>
           <div className={styles.hide}>
-            <Image src={course} className={styles.sectionImage} alt="image" />
+            <img
+              src="https://res.cloudinary.com/beam-innovations/image/upload/v1655289394/scle/friends-people-group-teamwork-diversity-min_gdj5pu.jpg"
+              className={styles.sectionImage}
+              alt="image"
+            />
           </div>
           <div className={styles.overlap}>
             {/* <div>
@@ -113,45 +117,32 @@ export default function Home() {
                 Our mission is to build a prosperous and peaceful environment
                 for everyone by equipping global leaders with ethical and
                 technical capabilities through an innovative and value-based
-                leadership and management education. We leverage on the wisdom
-                revealed in the Word of God to groom effective leaders to become
-                beacons of light in industry and governance around the world.{" "}
+                leadership and management education sourced from the word of
+                God.
               </p>
             </div>
-            <div className={styles.overlapList}>
-              <p className={styles.listOverlap}>
-                <AiOutlineCalendar className={styles.whiteColor} /> 3 Months
-              </p>
-              <p className={styles.listOverlap}>
-                <HiOutlineAcademicCap className={styles.whiteColor} /> 6
-                Faculties
-              </p>
-              <p className={styles.listOverlap}>
-                <IoIosPeople className={styles.whiteColor} />
-                178 Students
-              </p>
-            </div>
+
+            {/* <div className={styles.overlapList}>
+            <p className={styles.listOverlap}>
+              <AiOutlineCalendar className={styles.whiteColor} /> 3 Months
+            </p>
+            <p className={styles.listOverlap}>
+              <HiOutlineAcademicCap className={styles.whiteColor} /> 6
+              Faculties
+            </p>
+            <p className={styles.listOverlap}>
+              <IoIosPeople className={styles.whiteColor} />
+              178 Students
+            </p>
+          </div>
+        */}
             <div>
               <button className={styles.overlapButton}>join programme</button>
             </div>
           </div>
         </div>
       </div>
-      {/* <div className={styles.programme}>
-       <div className={styles.backgroundHeading}>
-         <h3 className={styles.headingText}>Community updates</h3>
-         <div className={styles.headingBtn}>
-           Learn more
-         </div>
-       </div>
-       <div className={styles.sectionImageDiv}>
-          <Image
-        src={community}
-        className={styles.sectionImage}
-          alt='image'
-        />
-       </div>
-       </div> */}
+
       <div className={styles.testimony}>
         <Image
           src={backgroundTestimony}
@@ -205,9 +196,9 @@ export default function Home() {
       <div className={styles.alumni}>
         <h2 className={styles.alumniHeading}> Partner with our alumni</h2>
         <p className={styles.alumniTextTop}>
-          Leveraging the wisdom entrenched in the Word of God effective leaders
-          will be groomed as beacons of light in industry and governance around
-          the world.
+          Leveraging on the wisdom in the word of God, we groom leaders to be
+          effective problem solvers in government, industry and the social
+          sector
         </p>
         {/* <div className={styles.partnerImage}>
           <Image src={alumni} alt="image" className={styles.alumniImage} />
