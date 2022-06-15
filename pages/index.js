@@ -40,9 +40,9 @@ export default function Home() {
           <div className={styles.heroTextSub}>
             <div className={styles.redBar}></div>
             <p className={styles.heroParagraph}>
-              Leveraging the wisdom entrenched in the Word of God, effective
-              leaders will be groomed as beacons of light in industry and
-              governance around the world.
+              Leveraging on the wisdom in the word of God, we groom leaders to
+              be effective problem solvers in government, industry and the
+              social sector.
             </p>
           </div>
         </div>
