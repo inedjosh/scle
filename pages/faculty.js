@@ -32,10 +32,11 @@ function contact() {
                 Captains of Industry (Christian led organizations)
               </h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Laudantium, veniam? Optio soluta minima excepturi facere
-                pariatur nisi, molestiae nihil impedit commodi, vitae eveniet id
-                sint perspiciatis necessitatibus! Autem, mollitia vitae.
+                The faculty will include industry leaders who have established a
+                reputation as effective and ethical leaders, and have achieved
+                excellence in diverse economic sectors. These leaders will
+                provide practical guidelines on effective leadership to
+                complement the theoretical knowledge they receive.
               </p>
             </div>
             <div className={styles.greyDiv}>
@@ -54,10 +55,13 @@ function contact() {
                 behavioural science
               </h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Laudantium, veniam? Optio soluta minima excepturi facere
-                pariatur nisi, molestiae nihil impedit commodi, vitae eveniet id
-                sint perspiciatis necessitatibus! Autem, mollitia vitae.
+                The study of strategy and the science of decision are providing
+                insights about how we make good and bad decisions. We will bring
+                scholars and researchers of strategy, social psychology and
+                behavioral science to share results of their research into the
+                science of decision-making so as to improve the quality of
+                decision-making of leaders and enhance effectiveness and
+                fairness in public and private sector management and leadership
               </p>
             </div>
           </div>
@@ -68,78 +72,11 @@ function contact() {
                 Christian leaders from successful global organizations
               </h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Laudantium, veniam? Optio soluta minima excepturi facere
-                pariatur nisi, molestiae nihil impedit commodi, vitae eveniet id
-                sint perspiciatis necessitatibus! Autem, mollitia vitae.
-              </p>
-            </div>
-            <div className={styles.greyDiv}>
-              <Image className={styles.greyBoxImg} alt="image" src={image3} />
-            </div>
-          </div>
-          <div className={styles.textSectionStyle2}>
-            <div className={styles.greyDiv}>
-              <Image className={styles.greyBoxImg} alt="image" src={image4} />
-            </div>
-
-            <div className={styles.textHolder}>
-              <h3 className={styles.headingfaculties2}>
-                Christian leaders in public service (local and International)
-              </h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Laudantium, veniam? Optio soluta minima excepturi facere
-                pariatur nisi, molestiae nihil impedit commodi, vitae eveniet id
-                sint perspiciatis necessitatibus! Autem, mollitia vitae.
-              </p>
-            </div>
-          </div>
-
-          <div className={styles.textSectionStyle1}>
-            <div className={styles.textHolder}>
-              <h3 className={styles.headingfaculties1}>
-                Lecturers from Local and Foreign Christian Institutions
-              </h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Laudantium, veniam? Optio soluta minima excepturi facere
-                pariatur nisi, molestiae nihil impedit commodi, vitae eveniet id
-                sint perspiciatis necessitatibus! Autem, mollitia vitae.
-              </p>
-            </div>
-            <div className={styles.greyDiv}>
-              <Image className={styles.greyBoxImg} alt="image" src={image5} />
-            </div>
-          </div>
-          <div className={styles.textSectionStyle2}>
-            <div className={styles.greyDiv}>
-              <Image className={styles.greyBoxImg} alt="image" src={image6} />
-            </div>
-
-            <div className={styles.textHolder}>
-              <h3 className={styles.headingfaculties2}>
-                {" "}
-                Clergy with visible testimony of impactful leadership.
-              </h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Laudantium, veniam? Optio soluta minima excepturi facere
-                pariatur nisi, molestiae nihil impedit commodi, vitae eveniet id
-                sint perspiciatis necessitatibus! Autem, mollitia vitae.
-              </p>
-            </div>
-          </div>
-          <div className={styles.textSectionStyle1}>
-            <div className={styles.textHolder}>
-              <h3 className={styles.headingfaculties1}>
-                Failed leaders and those who made leadership success
-              </h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Laudantium, veniam? Optio soluta minima excepturi facere
-                pariatur nisi, molestiae nihil impedit commodi, vitae eveniet id
-                sint perspiciatis necessitatibus! Autem, mollitia vitae.
+                As a bible-oriented leadership organization, we will bring
+                Christian leaders who have established reputation and
+                demonstrated competence in leadership to inspire leaders and
+                offer testimonies and valuable experiences on how to lead with
+                excellence and effectiveness
               </p>
             </div>
             <div className={styles.greyDiv}>

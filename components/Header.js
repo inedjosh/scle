@@ -76,7 +76,7 @@ function Header() {
           </Link>
         </li>
       </ul>
-      <nav className={styles.navButton}>APPLY NOW</nav>
+
       <nav className={styles.menuButton} onClick={handleMobileNav}>
         {!mobileNav ? (
           <AiOutlineMenu className={styles.menu} />

@@ -90,14 +90,11 @@ export default function Home() {
       </div>
       <div className={styles.programme}>
         <div className={styles.backgroundHeading}>
-          <h3 className={styles.headingText}>Our Mission</h3>
-          {/* <div className={styles.headingBtn}>
-           Learn more
-         </div> */}
+          <h3>Our Mission</h3>
         </div>
         <div className={styles.sectionImageDiv}>
           <img
-            src="https://res.cloudinary.com/beam-innovations/image/upload/v1655289394/scle/friends-people-group-teamwork-diversity-min_gdj5pu.jpg"
+            src="https://res.cloudinary.com/beam-innovations/image/upload/v1656787268/scle/WhatsApp_Image_2022-06-29_at_11.00.15_PM_rz1yjl.jpg"
             className={styles.sectionImage}
             alt="image"
           />
@@ -143,7 +140,7 @@ export default function Home() {
           alt="image"
         />
         <div className={styles.testimonyBox}>
-          <h3 className={styles.headingText}>Testimonials</h3>
+          <h3>Testimonials</h3>
 
           <p className={styles.testimonyText}>
             SCLE is the best place to be, indeed joining the program has changed
@@ -170,7 +167,7 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.form}>
-          <h2 className={styles.bigHeading}>Stay updated</h2>
+          <h2>Stay updated</h2>
           <p className={styles.formText}>
             stay updated on news, events, entrepreneurs, research and more
           </p>

@@ -17,8 +17,12 @@ function about() {
 
       <div className={styles.videoHolderContainer}>
         <div className={styles.videoHolder}>
-          <div className={styles.greyBox}>
-            <Image className={styles.greyBoxImg} alt="image" src={image1} />
+          <div className={styles.topImgDiv}>
+            <img
+              className={styles.topImg}
+              alt="image"
+              src="https://res.cloudinary.com/beam-innovations/image/upload/v1656787265/scle/WhatsApp_Image_2022-06-29_at_10.51.46_PM_1_l70lp2.jpg"
+            />
           </div>
 
           <div className={styles.theText}>
@@ -45,7 +49,13 @@ function about() {
       <div className={styles.nextDivContainer}>
         <div className={styles.greyBox2}>
           <h2 className={styles.headingText}>We are impact driven</h2>
-          <Image className={styles.greyBox2Img} alt="image" src={image2} />
+          <img
+            className={styles.greyBox2Img}
+            alt="image"
+            src={
+              "https://res.cloudinary.com/beam-innovations/image/upload/v1656787272/scle/WhatsApp_Image_2022-06-29_at_11.00.16_PM_misynx.jpg"
+            }
+          />
         </div>
       </div>
 
@@ -115,7 +125,7 @@ function about() {
           <div className={styles.greyBox3}>
             <img
               src="https://res.cloudinary.com/beam-innovations/image/upload/v1656787053/scle/IMG-20220615-WA0004_t0icyd.jpg"
-              className={styles.greyBoxImg}
+              className={styles.authorImg}
               alt="image"
             />
           </div>
