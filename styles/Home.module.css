@@ -927,10 +927,15 @@
   }
   .testimonyBox {
     position: absolute;
-    top: -30px;
+    top: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .testimonyBox h3 {
+    color: white;
+    font-family: "Montserrat", sans-serif;
   }
 
   .headingText {
@@ -962,7 +967,7 @@
   }
   .contact {
     padding: 30px;
-    margin: 0px 0 0;
+    margin: 20px 0 0;
     position: relative;
     font-family: "Montserrat", sans-serif;
     /* width: 100%; */

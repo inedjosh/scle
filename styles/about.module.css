@@ -579,10 +579,12 @@
     justify-content: center;
     align-items: center;
     flex-direction: column-reverse;
+    margin: 0;
   }
   .greyBox {
     width: 90%;
     margin-top: -20px;
+    /* margin: 0; */
   }
   .blue {
     font-size: 20px;
@@ -605,6 +607,35 @@
     flex-direction: column;
     align-items: center;
   }
+
+  .topImgDiv {
+    /* padding: 20px; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+  }
+
+  .topImg {
+    width: 90vw;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .topImageTwo {
+    width: 90vw;
+  }
+
+  .authorImgDiv {
+    display: flex;
+    justify-content: center;
+  }
+
+  .authorImg {
+    width: 90vw;
+    height: 350px;
+    object-fit: cover;
+  }
+
   .redBackgroundText {
     font-size: 15px;
     width: 100%;

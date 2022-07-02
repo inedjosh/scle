@@ -40,13 +40,25 @@ function contact() {
               </p>
             </div>
             <div className={styles.greyDiv}>
-              <Image className={styles.greyBoxImg} alt="image" src={image1} />
+              <img
+                className={styles.greyBoxImg}
+                alt="image"
+                src={
+                  "https://res.cloudinary.com/beam-innovations/image/upload/v1656787273/scle/WhatsApp_Image_2022-06-29_at_11.03.50_PM_zgxoqq.jpg"
+                }
+              />
             </div>
           </div>
 
           <div className={styles.textSectionStyle2}>
             <div className={styles.greyDiv}>
-              <Image className={styles.greyBoxImg} alt="image" src={image2} />
+              <img
+                className={styles.greyBoxImg}
+                alt="image"
+                src={
+                  "https://res.cloudinary.com/beam-innovations/image/upload/v1656787272/scle/WhatsApp_Image_2022-06-29_at_11.03.49_PM_hcyr0x.jpg"
+                }
+              />
             </div>
 
             <div className={styles.textHolder}>
@@ -80,7 +92,13 @@ function contact() {
               </p>
             </div>
             <div className={styles.greyDiv}>
-              <Image className={styles.greyBoxImg} alt="image" src={image3} />
+              <img
+                className={styles.greyBoxImg}
+                alt="image"
+                src={
+                  "https://res.cloudinary.com/beam-innovations/image/upload/v1656787270/scle/WhatsApp_Image_2022-06-29_at_10.51.47_PM_lc8vr5.jpg"
+                }
+              />
             </div>
           </div>
         </div>

@@ -50,7 +50,7 @@ function about() {
         <div className={styles.greyBox2}>
           <h2 className={styles.headingText}>We are impact driven</h2>
           <img
-            className={styles.greyBox2Img}
+            className={styles.topImageTwo}
             alt="image"
             src={
               "https://res.cloudinary.com/beam-innovations/image/upload/v1656787272/scle/WhatsApp_Image_2022-06-29_at_11.00.16_PM_misynx.jpg"
@@ -122,7 +122,7 @@ function about() {
       <div className={styles.founderDiv}>
         <h2 className={styles.headingText}>Meet the founder</h2>
         <div className={styles.greyBoxContainer}>
-          <div className={styles.greyBox3}>
+          <div className={styles.authorImgDiv}>
             <img
               src="https://res.cloudinary.com/beam-innovations/image/upload/v1656787053/scle/IMG-20220615-WA0004_t0icyd.jpg"
               className={styles.authorImg}
