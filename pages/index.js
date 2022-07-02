@@ -85,11 +85,6 @@ export default function Home() {
           </div>
           <div className={styles.whoWeAreImageDiv}>
             <Image src={lady} className={styles.divImageMain} alt="image" />
-            <div className={styles.overlapImages}>
-              <Image src={homeImage1} className={styles.divImage} alt="image" />
-              <Image src={homeImage2} className={styles.divImage} alt="image" />
-              <Image src={homeImage3} className={styles.divImage} alt="image" />
-            </div>
           </div>
         </div>
       </div>
@@ -101,13 +96,11 @@ export default function Home() {
          </div> */}
         </div>
         <div className={styles.sectionImageDiv}>
-          <div className={styles.hide}>
-            <img
-              src="https://res.cloudinary.com/beam-innovations/image/upload/v1655289394/scle/friends-people-group-teamwork-diversity-min_gdj5pu.jpg"
-              className={styles.sectionImage}
-              alt="image"
-            />
-          </div>
+          <img
+            src="https://res.cloudinary.com/beam-innovations/image/upload/v1655289394/scle/friends-people-group-teamwork-diversity-min_gdj5pu.jpg"
+            className={styles.sectionImage}
+            alt="image"
+          />
           <div className={styles.overlap}>
             {/* <div>
             <h2 className={styles.overlapHeading}>certificate program in christian leadership</h2>

@@ -113,7 +113,11 @@ function about() {
         <h2 className={styles.headingText}>Meet the founder</h2>
         <div className={styles.greyBoxContainer}>
           <div className={styles.greyBox3}>
-            <Image className={styles.greyBoxImg} alt="image" src={image3} />
+            <img
+              src="https://res.cloudinary.com/beam-innovations/image/upload/v1656787053/scle/IMG-20220615-WA0004_t0icyd.jpg"
+              className={styles.greyBoxImg}
+              alt="image"
+            />
           </div>
         </div>
 

@@ -755,12 +755,8 @@
     padding-left: 10px;
   }
   .overlay {
-    position: fixed;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 1;
-    cursor: pointer;
+    display: none;
   }
-
   .heroTextSub {
     margin-left: 20px;
     display: flex;
@@ -826,63 +822,60 @@
   .programme {
     display: flex;
     flex-direction: column;
-    /* margin-top:20px */
+    margin-top: 50px;
   }
   .backgroundHeading {
     background-color: #2e3192;
     margin-top: 40px;
-    margin: 20px 10px 20px;
+    margin: 40px 20px 40px;
     display: flex;
-    padding: 0 10px;
-    justify-content: flex-start;
+    padding: 0 80px;
+    justify-content: space-between;
     align-items: center;
     color: white;
     font-family: "Montserrat", sans-serif;
   }
-  .hide {
-    display: none;
-  }
   .headingBtn {
-    display: none;
+    border: 1px solid #fff;
+    padding: 7px 15px;
+    margin-top: 10px;
   }
   .sectionImageDiv {
-    flex: 1;
-    height: 400px;
-    width: 100vw;
-    padding: 40px 10px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    padding: 40px 70px;
+    position: relative;
+    margin: 20px 0;
   }
   .sectionImage {
-    display: none;
-    display: hidden;
+    max-width: 700px;
   }
+
   .testimonyImage {
     position: relative;
   }
   .overlap {
-    background-color: #da1c5c;
-    width: 100%;
-    /* height: 600px; */
+    background-color: #ffd2dd;
+    max-width: 400px;
     font-family: "Cinzel", serif;
-    color: white;
-    padding: 30px 5px 30px;
-    margin: 0;
+    color: black;
+    padding: 10px 10px;
+    position: absolute;
+    top: 60px;
+    right: 110px;
   }
   .overlapTextDiv {
     font-family: "Montserrat", sans-serif;
-    padding: 30px 0;
+    padding: 30px 10px;
     /* border-top: 1px solid white; */
     border-bottom: 1px solid white;
     margin: 0 30px;
   }
   .whiteColor {
-    color: white;
+    color: black;
     font-size: 20px;
   }
   .sectionImage {
-    display: none;
+    width: 80%;
+    height: 60%;
   }
   .headingText {
     text-transform: uppercase;
@@ -896,7 +889,7 @@
     text-transform: uppercase;
     color: white;
     width: 300px;
-    padding: 20px;
+    padding: 40px;
     width: 350px;
   }
   .overlapList {
@@ -908,20 +901,23 @@
     background-color: white;
     border: none;
     outline: none;
-    /* margin: 30px; */
+    margin: 30px;
     padding: 15px;
-    color: #2e3192;
+    color: black;
     font-family: "Montserrat", sans-serif;
-    width: 80%;
+    text-transform: capitalize;
   }
   .testimony {
-    /* margin-top:20px; */
+    margin-top: 50px;
     position: relative;
-    /* height: 280px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   .testimonyBox {
     position: absolute;
-    top: 2px;
+    top: 70px;
     display: flex;
     /* justify-content: center; */
     flex-direction: column;
@@ -932,87 +928,76 @@
     color: white;
     font-family: "Montserrat", sans-serif;
     text-align: center;
-    margin-top: 20px;
-    font-size: 17px;
-    padding: 0px 0;
+    margin-top: 40px;
   }
   .testimonyText {
     background-color: white;
-    padding: 10px 10px;
+    padding: 30px 30px;
     width: 80%;
-    margin-top: 20px;
+    margin-top: 50px;
     font-family: "Montserrat", sans-serif;
     font-weight: 300;
-    font-size: 13px;
-  }
-  .testimonyImage {
-    position: absolute;
+    font-size: 30px;
   }
   .testimonyImageDiv {
     display: flex;
-    width: 20px;
+    width: 80%;
     justify-content: flex-start;
   }
-
   .testimonyPerson {
     align-self: flex-start;
     display: flex;
     justify-self: flex-start;
   }
   .contact {
-    padding: 10px;
-    margin-top: -50px;
-    /* margin-bottom: 50px; */
+    padding: 70px;
+    margin-top: 50px;
+    position: relative;
     font-family: "Montserrat", sans-serif;
-  }
-  .contactImage {
-    display: hidden;
-    width: 0;
-    height: 0;
-    position: relative;
-  }
-
-  .form {
-    position: relative;
     width: 100%;
+  }
+  .form {
+    position: absolute;
+    top: 50px;
+    width: 90vw;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
   }
   .bigHeading {
-    font-size: 15px;
-    font-weight: 300;
-    color: black;
+    font-size: 45px;
+    font-weight: 800;
+    color: white;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 40px;
   }
   .formText {
-    font-size: 10px;
+    /* font-size: 35px; */
     font-weight: 300;
-    color: black;
+    color: white;
     text-align: center;
     margin-top: -10px;
-    text-align: center;
-    padding-left: 15px;
   }
   .formDiv {
     display: flex;
     flex-direction: column;
-    margin: 3px 0;
+    margin: 20px 0;
   }
   .label {
-    font-size: 10px;
+    font-size: 15px;
     font-family: "Montserrat", sans-serif;
-    color: black;
+    color: white;
     font-weight: 300;
   }
   .input {
-    width: 100%;
-    height: 35px;
+    width: 500px;
+    height: 50px;
     font-size: 17px;
     font-family: "Montserrat", sans-serif;
     padding-left: 10px;
+    outline: none;
+    border: 1px solid #ccc;
   }
   .redColor {
     color: red;
@@ -1020,63 +1005,10 @@
   .formBtnDiv {
     display: flex;
     justify-content: flex-start;
-    /* width:64%; */
-    margin-top: 25px;
+    width: 64%;
+    margin-top: 15px;
   }
   .formBtn {
-    background-color: #407bff;
-    width: 80%;
-    height: 38px;
-    border: none;
-    outline: none;
-    color: white;
-    font-weight: bold;
-    font-size: 17px;
-    align-self: flex-start;
-    font-family: "Montserrat", sans-serif;
-    margin-left: 20px;
-  }
-  .alumni {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: "Montserrat", sans-serif;
-    position: relative;
-    margin-top: 100px;
-  }
-  .alumniHeading {
-    font-family: "Montserrat", sans-serif;
-    font-size: 20px;
-    margin-top: 20px;
-  }
-  .alumniImage {
-    width: 100%;
-    /* margin-left: -30px; */
-    position: absolute;
-    right: 20px;
-  }
-  .alumniTextTop {
-    position: absolute;
-    top: -10px;
-    font-size: 10px;
-    width: 70%;
-    font-weight: 300;
-    text-align: center;
-    margin-top: 60px;
-  }
-  .alumniTextBottom {
-    position: absolute;
-    bottom: 55px;
-    width: 70%;
-    font-size: 12px;
-    font-weight: 300;
-    text-align: center;
-  }
-  .alumniButtonDiv {
-    margin-top: 30px;
-  }
-  .alumniButton {
     background-color: #407bff;
     width: 200px;
     height: 50px;
@@ -1085,8 +1017,9 @@
     color: white;
     font-weight: bold;
     font-size: 17px;
+    align-self: flex-start;
     font-family: "Montserrat", sans-serif;
-    margin-top: 30px;
+    margin-left: 120px;
   }
   .navBlue {
     display: none;
@@ -1108,7 +1041,7 @@
   .mobileShown {
     height: 400px;
     position: absolute;
-    z-index: 100;
+    z-index: 1000;
     background-color: #fff;
     width: 70%;
     right: 10px;
