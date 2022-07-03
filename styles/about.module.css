@@ -579,12 +579,10 @@
     justify-content: center;
     align-items: center;
     flex-direction: column-reverse;
-    margin: 0;
   }
   .greyBox {
     width: 90%;
     margin-top: -20px;
-    /* margin: 0; */
   }
   .blue {
     font-size: 20px;

@@ -307,6 +307,14 @@
   align-items: center;
   /* width: 80% */
 }
+
+.testimonyBox h3 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  /* margin-top: 20px; */
+  font-size: 30px;
+}
 .headingText {
   color: white;
   font-family: "Montserrat", sans-serif;
@@ -338,10 +346,19 @@
   position: relative;
   font-family: "Montserrat", sans-serif;
   width: 100%;
+  color: white;
+}
+
+.form h3 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 30px;
 }
 .form {
   position: absolute;
-  top: 50px;
+  top: 120px;
   width: 90vw;
   display: flex;
   justify-content: center;
