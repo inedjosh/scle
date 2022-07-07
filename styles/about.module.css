@@ -34,15 +34,6 @@
   align-items: center;
 }
 
-.videoHolderContainer {
-  width: 100%;
-  justify-content: center;
-  display: flex;
-  font-family: "Montserrat", sans-serif;
-  margin-top: -10px;
-  align-items: center;
-  margin-top: 50px;
-}
 .videoText {
   width: 100%;
 }
@@ -62,8 +53,6 @@
 
 .videoHolder {
   display: flex;
-  /* justify-content: center; */
-  /* align-items: center; */
 }
 
 .topImgDiv {
@@ -580,6 +569,18 @@
     align-items: center;
     flex-direction: column-reverse;
   }
+  .topImgDiv {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 230px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  .topImg {
+    height: 100%;
+    width: 90%;
+  }
   .greyBox {
     width: 90%;
     margin-top: -20px;
@@ -604,19 +605,6 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-  }
-
-  .topImgDiv {
-    /* padding: 20px; */
-    display: flex;
-    justify-content: center;
-    /* align-items: center; */
-  }
-
-  .topImg {
-    width: 90vw;
-    height: 300px;
-    object-fit: cover;
   }
 
   .topImageTwo {

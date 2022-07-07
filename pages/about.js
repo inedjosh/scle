@@ -15,34 +15,32 @@ function about() {
     <div className={styles.about}>
       <Header />
 
-      <div className={styles.videoHolderContainer}>
-        <div className={styles.videoHolder}>
-          <div className={styles.topImgDiv}>
-            <img
-              className={styles.topImg}
-              alt="image"
-              src="https://res.cloudinary.com/beam-innovations/image/upload/v1656787265/scle/WhatsApp_Image_2022-06-29_at_10.51.46_PM_1_l70lp2.jpg"
-            />
-          </div>
+      <div className={styles.videoHolder}>
+        <div className={styles.topImgDiv}>
+          <img
+            className={styles.topImg}
+            alt="image"
+            src="https://res.cloudinary.com/beam-innovations/image/upload/v1656787272/scle/WhatsApp_Image_2022-06-29_at_11.03.49_PM_hcyr0x.jpg"
+          />
+        </div>
 
-          <div className={styles.theText}>
-            <h2 className={styles.blue}>Why SCLE?</h2>
-            <p className={styles.videoText}>
-              SCLE comes to fill a gap in leadership and management studies,
-              Leadership studies have suffered loss of values. This loss has
-              fractured real life leadership. <br /> <br />
-              The failure to mainstream value in leadership and management
-              education arises from the dominant philosophy that discounts
-              values in scholarship. Leadership and management education is
-              going through a crisis, it is a crisis of orientation and
-              objectivity. <br /> <br /> Moral agnosticism has made leadership
-              and management education no longer able to produce leaders who can
-              effectively deal with pressing social and economic challenges
-              Nigeria has an urgent need for quality leadership and management
-              education for public and private institutions that would deliver
-              economic and social prosperity
-            </p>
-          </div>
+        <div className={styles.theText}>
+          <h2 className={styles.blue}>Why SCLE?</h2>
+          <p className={styles.videoText}>
+            SCLE comes to fill a gap in leadership and management studies,
+            Leadership studies have suffered loss of values. This loss has
+            fractured real life leadership. <br /> <br />
+            The failure to mainstream value in leadership and management
+            education arises from the dominant philosophy that discounts values
+            in scholarship. Leadership and management education is going through
+            a crisis, it is a crisis of orientation and objectivity. <br />{" "}
+            <br /> Moral agnosticism has made leadership and management
+            education no longer able to produce leaders who can effectively deal
+            with pressing social and economic challenges Nigeria has an urgent
+            need for quality leadership and management education for public and
+            private institutions that would deliver economic and social
+            prosperity
+          </p>
         </div>
       </div>
 
@@ -73,7 +71,6 @@ function about() {
         </p>
           </div>
     */}
-
       <div className={styles.obj}>
         <h2 className={styles.headingText}>Our core values</h2>
 
@@ -118,7 +115,6 @@ function about() {
           </div>
         </div>
       </div>
-
       <div className={styles.founderDiv}>
         <h2 className={styles.headingText}>Meet the founder</h2>
         <div className={styles.greyBoxContainer}>

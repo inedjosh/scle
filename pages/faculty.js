@@ -18,9 +18,6 @@ function contact() {
       <Header />
       <div className={styles.firstSection}>
         <h1 className={styles.heroText}>Faculties at scle</h1>
-        <div className={styles.girlImage}>
-          <Image src={lady} alt="lady" className={styles.heroImage} />
-        </div>
       </div>
       <div className={styles.faculties}>
         <h2 className={styles.facultiesHeading}>Our Faculties</h2>
