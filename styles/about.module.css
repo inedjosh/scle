@@ -53,6 +53,7 @@
 
 .videoHolder {
   display: flex;
+  justify-content: center;
 }
 
 .topImgDiv {
