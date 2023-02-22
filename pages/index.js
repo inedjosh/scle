@@ -10,7 +10,6 @@ import image1 from "./../images/image1.png";
 import contact from "./../images/contact-home.png";
 import Footer from "./../components/Footer";
 import Link from "next/link";
-import { useRouter } from "next/router";
 
 export default function Home() {
   return (
@@ -24,7 +23,7 @@ export default function Home() {
         <div className={styles.heroDescription}>
           <div className={styles.heroText}>
             To spread prosperity
-            <br /> and peace for everyone <br /> every where in the{" "}
+            <br /> and peace for everyone <br /> every where in the
             <span className={styles.heroTextBlue}>world</span>
           </div>
           <div className={styles.heroTextSub}>
@@ -48,13 +47,13 @@ export default function Home() {
             </h2> */}
             <p className={styles.subHeadingText}>
               Many Christians are perplexed about how a good Christian should be
-              involved in politics. They don't know weather partisanship,
+              involved in politics. They dont know weather partisanship,
               including standing for elections is a Christian obligation.
               <br />
               <br /> They are confused about how to choose their leaders and
               whether the character is very important and should override policy
-              and competence. They also don't understand the extent of the
-              'political' that is what it means to be politically engaged.{" "}
+              and competence. They also dont understand the extent of the
+              political that is what it means to be politically engaged.
               <br />
               <br /> This book tries to answer these questions and to provide a
               guide to the perplexed Christians and how to effectively engage in
