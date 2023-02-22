@@ -11,6 +11,8 @@
   z-index: 30;
   height: 90px;
 }
+
+
 .whiteBck {
   display: flex;
   justify-content: space-between;
@@ -795,7 +797,7 @@
     margin-top: -5px;
   }
   .textDiv {
-    margin-top: -50px;
+    margin-top: 0px;
   }
   .divImageMain {
     height: 100px;

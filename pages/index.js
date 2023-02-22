@@ -1,26 +1,16 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import logo from "./../images/MAIN-LOGO.png";
 import lady from "./../images/lady.png";
+import election from "./../images/election.jpeg";
 import background from "./../images/new-hero.jpg";
-import Link from "next/link";
-import course from "./../images/friends-image.jpg";
-import community from "./../images/community.png";
 import Header from "./../components/Header";
 import backgroundTestimony from "./../images/backgroundTestimony.png";
 import image1 from "./../images/image1.png";
-import image2 from "./../images/image2.png";
-import image3 from "./../images/image3.png";
 import contact from "./../images/contact-home.png";
-import alumni from "./../images/alumni.png";
 import Footer from "./../components/Footer";
-import { HiOutlineAcademicCap } from "react-icons/hi";
-import { AiOutlineCalendar } from "react-icons/ai";
-import { IoIosPeople } from "react-icons/io";
-import homeImage1 from "./../images/home-img1.png";
-import homeImage2 from "./../images/home-img2.png";
-import homeImage3 from "./../images/homeimg-3.png";
+import Link from "next/link";
+import { useRouter } from "next/router";
 
 export default function Home() {
   return (
@@ -48,12 +38,43 @@ export default function Home() {
         </div>
       </div>
 
-      {/* <div className={styles.subHero}>
-       <h4 className={styles.subHeroHeadingText}>charles darwin</h4>
-       <p className={styles.subHeroParagraph}>
-         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisi neque pulvinar erat amet porttitor amet, blandit vulputate. Sed adipiscing dignissim placerat 
-       </p>
-       </div> */}
+      <div className={styles.whoWeAre} id="before_you_vote">
+        <h1 className={styles.mainHeading}>Before you vote </h1>
+
+        <div className={styles.flexDiv}>
+          <div className={styles.textDiv}>
+            {/* <h2 className={styles.subHeading}>
+              A leading leadership institute 
+            </h2> */}
+            <p className={styles.subHeadingText}>
+              Many Christians are perplexed about how a good Christian should be
+              involved in politics. They don't know weather partisanship,
+              including standing for elections is a Christian obligation.
+              <br />
+              <br /> They are confused about how to choose their leaders and
+              whether the character is very important and should override policy
+              and competence. They also don't understand the extent of the
+              'political' that is what it means to be politically engaged.{" "}
+              <br />
+              <br /> This book tries to answer these questions and to provide a
+              guide to the perplexed Christians and how to effectively engage in
+              politics and political processes. It brings together insights and
+              ideas for political philosophy and theology to guide the Christian
+              to be a true light to society.
+            </p>
+            <br />
+            <br />
+            <div className={styles.btnDiv}>
+              <Link href="https://drive.google.com/file/d/1V926Sc4S98QsdXwcEWkkeS8SercXMPZ2/view?usp=share_link">
+                <a target="_blank"> READ IT</a>
+              </Link>
+            </div>
+          </div>
+          <div className={styles.whoWeAreImageDiv}>
+            <Image src={election} className={styles.divImageMain} alt="image" />
+          </div>
+        </div>
+      </div>
       <div className={styles.whoWeAre}>
         <h1 className={styles.mainHeading}>Who we are </h1>
 
