@@ -175,7 +175,7 @@
   font-family: "Montserrat", sans-serif;
   font-size: 40px;
   font-weight: 900;
-  margin-top: 200px;
+  margin-top: 100px;
 }
 .flexDiv {
   display: flex;
@@ -183,7 +183,7 @@
   justify-content: space-around;
   font-family: "Montserrat", sans-serif;
   width: 100%;
-  margin-top: 60px;
+  margin-top: 30px;
   align-items: center;
   padding: 0 80px;
 }
@@ -796,6 +796,23 @@
     flex-direction: column-reverse;
     margin-top: -5px;
   }
+  .mainHeading {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+  margin-top: 200px;
+}
+.flexDiv {
+  display: flex;
+   flex-direction: column-reverse;
+  justify-content: space-around;
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  margin-top: 30px;
+  align-items: center;
+  padding: 0 20px;
+}
   .textDiv {
     margin-top: 0px;
   }
@@ -826,7 +843,7 @@
   }
 
   .heroSubText {
-    font-size: 10px;
+    font-size: 14px;
   }
   .btnDiv {
     background-color: #2e3192;
